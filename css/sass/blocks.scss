@@ -1,0 +1,377 @@
+
+/**
+ * Header
+ */
+
+header {
+	@include padding(2,0,1,0);
+
+	//@include margin(2,0,3,0);
+}
+
+	.logo h1 {
+		@include font-size(22);
+		@include line-height(32);
+
+		@include margin(0,0,0,0);
+
+		font-weight: 300;
+	}
+
+	.logo h2 {
+		@include font-size(16);
+		@include line-height(16);
+
+		@include margin(0,0,0,0);
+	}
+
+
+	.navigation {
+
+	}
+
+		.navigation ul {
+			padding : 0;
+			margin: 0;
+		}
+
+		.navigation li {
+			list-style: none;
+
+			@include font-size(16);
+
+			@include padding(0,0.4,0,0.4);
+		}
+
+.goTop {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+
+    z-index: 700;
+
+    color: $grisMoyen;
+}
+
+    .goTop a {
+        text-decoration: none;
+        @include font-size(26);
+    }
+
+
+
+
+/**
+ * Index
+ */
+
+/* Bannière */
+
+.banner {}
+    .banner .img {
+        background-image: url($siteurl+'img/mer-velo.png');
+
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        height: 300px;
+
+        border-radius: 2px;
+    }
+
+    .banner .terminal {
+        min-height: 2em;
+    }
+
+	.banner .title {
+		font-weight: 300;
+		@include font-size(32);
+		@include line-height(40);
+
+		//color: $white;
+	}
+        //Pour Typist
+        .banner .title .cursor {
+            @extend .title;
+        }
+
+.goNext {
+    text-decoration: none;
+    text-align: center;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+    .goNext span {
+        @include font-size(52);
+    }
+
+/* A propos */
+
+/* Compétences */
+
+    .competences li {
+        vertical-align: top;
+    }
+
+    .competences .svg {
+        height: 96px;
+        height: 6 +rem;
+    }
+
+        .competences .svg.html svg,
+        .competences .svg.js svg,
+        .competences .svg.angular svg,
+        .competences .svg.wp svg,
+        .competences .svg.nodejs svg, {
+        	width: 96px;
+        	height: 96px;
+            height: 6 +rem;
+        }
+        .competences .svg.angular svg,
+        .competences .svg.nodejs svg, {
+            width: 128px;
+            height: 7 +rem;
+            height: 96px;
+            height: 6 +rem;
+        }
+
+        .competences .svg.html svg,
+        .competences .svg.html svg *,
+
+        .competences .svg.js svg,
+        .competences .svg.js svg *,
+
+        .competences .svg.angular svg,
+        .competences .svg.angular svg *,
+
+        .competences .svg.wp svg,
+        .competences .svg.wp svg *,
+
+        .competences .svg.nodejs svg,
+        .competences .svg.nodejs svg *,
+
+        {
+        	fill: $grisMoyen !important;
+        }
+
+        .competences .svg.html svg *:nth-child(4),
+        .competences .svg.html svg *:last-child,
+
+        .competences .svg.js svg *:nth-child(2),
+        .competences .svg.js svg *:nth-child(3),
+
+        .competences .svg.angular svg,
+        .competences .svg.angular svg path,
+        .competences .svg.angular svg polygon:last-child,
+
+        {
+        	fill: $white !important;
+        }
+
+        .competences .svg.angular svg ellipse {
+        	stroke : $grisMoyen !important;
+        }
+
+/* Projets */
+//Voir aussi .projetList
+.works {
+    background-image: url($siteurl+'img/mac-work.jpg');
+
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+    .works .over {
+        background : rgba(0,0,0,0.3);
+
+    }
+
+    .works .title {
+        @include font-size(68);
+        @include line-height(80);
+    }
+
+/* Posts */
+//Voir aussi .postsList
+
+
+
+/* Blog */
+
+.blog {}
+
+/*ul*/ .postsList {
+    list-style: none;
+}
+
+    .postsList__item {
+        position: relative;
+        @include margin(1, 0, 2, 0);
+    }
+
+    .postsList__item:before {
+        content: "";
+        display: block;
+
+        position: absolute;
+        z-index: 10;
+        top: 50%;
+        left: -3 +em;
+
+        margin-right: -12px;
+        margin-top: -10px;
+
+        width: 21 +px;
+        height: 21 +px;
+        border-radius: 20 +px;
+        background: $grisMoyen;
+    }
+
+        .postsList__item .title {
+            margin: 0;
+        }
+
+        .postsList__item .date {
+           // margin: 0;
+        }
+
+
+/* End */
+.end {
+    background-image: url($siteurl+'img/ciel-nuage.jpg');
+
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height: 400px;
+}
+
+
+
+/**
+ * Projets
+ */
+
+.projetsList {}
+
+    .projetsList.cfff * {
+        color : $white;
+    }
+    .projetsList.cfff .projetsList__item .date:after {
+        background: $white;
+    }
+    .projetsList.cfff .projetsList__item .info {
+        border-left-color: $white;
+    }
+
+    .projetsList.tiny p, .projetsList.tiny {
+        @include font-size(16);
+        @include line-height(26);
+    }
+
+    .projetsList__item {}
+
+        .projetsList__item .date {
+            vertical-align: middle;
+
+            position: relative;
+        }
+
+        .projetsList__item .date:after {
+            content: "";
+            display: block;
+
+            position: absolute;
+            z-index: 10;
+            top: 50%;
+            right: 0;
+
+            margin-right: -12px;
+            margin-top: -10px;
+
+            width: 21 +px;
+            height: 21 +px;
+            border-radius: 20 +px;
+            background: $grisMoyen;
+        }
+
+        .projetsList__item.big .date:after {
+            border-radius: 0;
+
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+
+        .projetsList__item .info {
+            display: inline-block;
+            vertical-align: middle;
+
+            border-left: 3px solid $grisMoyen;
+
+            padding-left: 4%;
+            padding-bottom: 4%;
+        }
+        .projetsList__item:first-child .info {
+            padding-top: 4%;
+        }
+        .projetsList__item:last-child .info {
+            // padding-bottom: 10%;
+        }
+
+            .projetsList__item .link {
+                //opacity: 0;
+              //  @include padding(0.6,0.6,0.6,0.6);
+              //  @include margin(0, 0, 0, 1);
+
+                //@include transitions(0.4, opacity);
+            }
+
+            .projetsList__item:hover .link {
+                //opacity: 1;
+                //height: auto;
+            }
+
+
+
+
+
+/**
+ * Footer
+ */
+
+footer {
+}
+
+	footer .svg svg {
+		width: 48px;
+		fill: $grisMoyen;
+	}
+		footer .svg svg * {
+			fill: $grisMoyen;
+		}
+	footer .svg:hover svg,
+	footer .svg:hover svg * {
+		fill: $olive;
+	}
+	footer .svg.linkedin svg {
+		width: 36px;
+	}
+
+
+
+
+

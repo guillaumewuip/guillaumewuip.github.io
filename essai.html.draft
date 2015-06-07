@@ -1,0 +1,84 @@
+---
+layout: post
+
+---
+
+
+<div class="row">        
+
+
+    <img class="w100" src="http://lorempixel.com/1920/1010/nature/8" alt="">
+
+    <h1>Installer foglo sur Linux</h1>
+    
+
+
+    <p class="subtitle">Dépendences, vHost, etc.</p>
+
+    <p>Il peut être intéressant de vouloir lancer foglo sur un jolis linux tout neuf. Pratique, léger, bref, un bonheur. <br>
+        La procédure n'est pas très longue ; voici comment faire.
+    </p>
+
+    <h2>Démarche</h2>
+
+    <ol>
+        <li>Clonner le repo git</li>
+        <li>Installer php, mysql, et cie</li>
+        <li>Créer nos jolis vHost</li>
+        <li>C'est prêt !</li>
+    </ol>
+
+    <h2>Cloner le repos Git</h2>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, quisquam, atque a tenetur recusandae possimus non quo at consequuntur adipisci soluta rem maxime accusamus. Pariatur nisi nam eum aliquam ab.</p>
+
+    <h3>Attention !</h3>
+
+    <div>
+
+        <p class="inline w50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quos, inventore, assumenda itaque et officia quo eum tenetur esse alias neque dolorem repudiandae. Repudiandae rem hic veritatis possimus fugit excepturi</p>
+
+        <figure class="w50 inline">
+            <img src="http://lorempixel.com/1920/1010/nature/3" alt="">
+            <figcaption>Attention, c'est pas facile.</figcaption>
+        </figure>
+
+    </div>
+
+
+
+    <div class="clearfix"></div>
+
+
+    <h3>Faire ça aussi</h3>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, quisquam, atque a tenetur recusandae possimus non quo at consequuntur adipisci soluta rem maxime accusamus. Pariatur nisi nam eum aliquam ab.</p>
+
+    <pre>
+img {
+border-radius : 2px;
+}
+
+figure {
+@include margin(1, 1, 1, 1);
+}
+figure img {
+max-width: 100%;
+display : block;
+}
+
+figure figcaption {
+@include margin-top(1);
+font-style: italic;
+}
+    </pre>
+
+    
+    <div class="clearfix"></div>
+
+    <h2>La suite</h2>
+        
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, quisquam, atque a tenetur recusandae possimus non quo at consequuntur adipisci soluta rem <a href="#">Lorem ipsum</a> maxime accusamus. Pariatur nisi nam eum aliquam ab.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, doloribus placeat culpa ab nam qui dolor maiores praesentium excepturi accusamus explicabo dolorum alias at beatae sunt laborum ut ipsa recusandae.</p>
+
+</div>
