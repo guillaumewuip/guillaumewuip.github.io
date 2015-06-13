@@ -1,0 +1,68 @@
+---
+layout: default
+
+title: Projets
+
+use:
+    - projects
+
+---
+
+<h1 class="col-md-10 col-sm-10 col-sm-offset-1 col-md-offset-1">
+    Projets
+</h1>
+
+<p class="col-md-8 col-sm-10 col-sm-offset-1 col-md-offset-1">
+    Voici la liste de tout mes projets, (très) petits ou grands, personnels ou scolaires. <br>
+    Vous pouvez retrouver une partie de mes projets sur <a href="http://github.com/guillaumewuip">Github</a>.
+</p>
+
+
+<div class="projectsList col-md-10 col-md-offset-1 col-sm-12 col-xs-12 mt3">
+
+    <div class="row">
+
+{% for project in data.projects %}
+
+       <div class="projetsList__item col-md-12 col-sm-12 col-xs-12 {% if project.page %} big {% endif %}">
+            <div class="row">
+
+                <div class="date col-md-2 col-sm-3 inline xs-hidde inline taCenter">
+                    <p>{{ project.date | date('M Y', timezone="Europe/Paris") }}</p>
+                </div><!--
+
+             --><div class="info col-md-8 col-sm-9 col-xs-12 inline">
+                    <h2>{{ project.title }}</h2>
+
+                    <h3 class="p md-hidde sm-block xs-block">
+                        {{ project.date | date('M Y', timezone="Europe/Paris") }}
+
+                        {% if project.page %}
+                             | <span><a href="{{ project.url }}">Voir</a></span>
+                        {% endif %}
+                    </h3>
+
+                    <p> {{ project.desc | raw }} </p>
+
+                    <div>
+                        {% for tag in project.tags %}
+                        <a class="tag" href="{{ site.url }}/projects/tag/{{ tag|url_encode(true) }}"><span>{{ tag }}</span></a>
+                        {% endfor %}
+                    </div>
+
+                </div><!--
+
+             -->{% if project.page %}<div class="link col-md-2 col-xs-2 hidde md-inline">
+                    <span><a href="{{ project.url }}" class="button p ">Voir</a></span>
+                </div>
+                {% endif %}
+
+            </div>
+        </div>
+
+{% endfor %}
+
+    </div>
+
+</div>
+

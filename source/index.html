@@ -1,0 +1,235 @@
+---
+layout: default
+
+use :
+    - projects
+    - posts
+---
+
+
+<div class="banner col-md-8 col-md-offset-2 taCenter xs-mt1 sm-mt2">
+    <div class="img hidde md-block"></div>
+    <div class="terminal js-terminal">
+        <h1 class="title mb1">Je suis étudiant et développeur web.</h1>
+    </div>
+
+    <div class="img md-hidde mt2"></div>
+</div>
+
+<div class="col-xs-12 mt3 taCenter">
+    <a href="#a-propos" class="goNext js-goToID" data-target="a-propos"><span>↓</span></a>
+</div>
+
+
+
+
+
+<div class="col-md-8 col-md-offset-1 mt3" id="a-propos">
+    <h1>A Propos</h1>
+    <p>
+        Je m'appelle Guillaume Clochard. J'ai 20 ans et je vis à Nantes, en France.
+    </p>
+    <p>
+        Étudiant ingénieur informatique en seconde année à Polytech Nantes, je suis également développeur front-end et back-end.
+    </p>
+    <p>
+        Je crée des sites et applications web et parle couramment l'HTML, le CSS, le Javascript (NodeJS), le PHP (Wordpress) et d'autres langages (Python, Go, ...). <br> J'ai notamment développé <a href="http://foglo.Fr">foglo</a>.
+    </p>
+    <p>
+        J'ai acquis ces compétences de façon autodidacte et les entretiens par une veille technique régulière. Je développe également des projets opensources que vous pouvez retrouver sur mon <a href="https://github.com/guillaumewuip">github</a>.
+    </p>
+
+    <p>
+        Ma <a href="{{ site.url }}/projects">page Projets</a> propose une chronologie de tous mes projets, petits ou grands, sur lesquels j'ai travaillé ou travaille actuellement.
+    </p>
+    <p>
+
+    </p>
+    <p>Plus largement : je m'intéresse au monde numérique dans son ensemble, à la philosophie, à la musique.</p>
+</div>
+
+
+
+
+
+
+<div class="col-md-10 col-md-offset-1 mt6 competences">
+
+    <h1>Compétences</h1>
+
+    <ul class="p0 mt3 taCenter">
+
+        <li class="inline md-w20 sm-w30 xs-w50 xs-mb2 taCenter">
+            <div class="svg html">
+                {% include 'elements/img/html.svg' %}
+            </div>
+            <h3 class="mb0">HTML / CSS</h3>
+        </li><!--
+     --><li class="inline md-w20 sm-w30 xs-w50 xs-mb2 taCenter">
+            <div class="svg js">
+                {% include 'elements/img/js.svg' %}
+            </div>
+            <h3 class="mb0">Javascript</h3>
+        </li><!--
+     --><li class="inline md-w20 sm-w30 xs-w50 xs-mb2 taCenter">
+            <div class="svg angular">
+                {% include 'elements/img/angular.svg' %}
+            </div>
+            <h3 class="mb0">Angular</h3>
+        </li><!--
+     --><li class="inline md-w20 sm-w30 xs-w50 xs-mb2 taCenter">
+            <div class="svg wp">
+                {% include 'elements/img/wp.svg' %}
+            </div>
+            <h3 class="mb0">WordPress</h3>
+        </li><!--
+     --><li class="inline md-w20 sm-w30 xs-w50 xs-mb2 taCenter">
+            <div class="svg nodejs">
+                {% include 'elements/img/nodejs.svg' %}
+            </div>
+            <h3>NodeJS</h3>
+        </li>
+
+    </ul>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-sm-8 inline vBottom">
+            <h2>Et aussi :</h2>
+            <p class="mb0">SASS, Grunt, Go, Python, Arduino, RaspberryPi, Android, Karotz, ...</p>
+        </div><!--
+    --><p class="col-xs-12 col-sm-12 col-sm-4 inline vBottom taRight xs-taCenter m0 xs-mt2">
+            <a class="button" href="{{ site.url }}/CV_Guillaume-Clochard.pdf">Voir mon CV</a>
+        </p>
+    </div>
+
+</div>
+
+
+
+
+
+
+<div class="works col-md-12 mt12">
+    <div class="row over">
+
+        <h1 class="title inline col-md-4 col-md-offset-1 col-sm-12 col-xs-12 ftw4 ltSpace2 cfff">
+            Mes derniers projets
+        </h1><!--
+
+     --><div class="inline col-md-7 col-sm-12 col-xs-12 h100 projetsList cfff tiny">
+
+            <div class="row">
+
+                {% set nb_projects = 0 %}
+                {% for project in data.projects %}
+
+                    {% if nb_projects < 3 %}
+
+                    <div class="projetsList__item col-md-12 col-sm-12 col-xs-12 {% if project.page %} big {% endif %}">
+                        <div class="row">
+
+                            <div class="date col-md-2 col-sm-3 inline xs-hidde inline taCenter">
+                                <p>{{ project.date | date('M Y', timezone="Europe/Paris") }}</p>
+                            </div><!--
+
+                         --><div class="info col-md-8 col-sm-9 col-xs-12 inline">
+                                <h2>{{ project.title }}</h2>
+
+                                <h3 class="p md-hidde sm-block xs-block">
+                                    {{ project.date | date('M Y', timezone="Europe/Paris") }}
+
+                                    {% if project.page %}
+                                         | <span><a href="{{ project.url }}">Voir</a></span>
+                                    {% endif %}
+                                </h3>
+
+                                <p> {{ project.desc | raw }} </p>
+
+                                <div>
+                                    {% for tag in project.tags %}
+                                    <a class="tag" href="{{ site.url }}/projects/tag/{{ tag|url_encode(true) }}"><span>{{ tag }}</span></a>
+                                    {% endfor %}
+                                </div>
+
+                            </div><!--
+
+                         -->{% if project.page %}<div class="link col-md-2 col-xs-2 hidde md-inline">
+                                <span><a href="{{ project.url }}" class="button p ">Voir</a></span>
+                            </div>
+                            {% endif %}
+
+                        </div>
+                    </div>
+
+                    {% endif %}
+                    {% set nb_projects = nb_projects+1 %}
+
+                {% endfor %}
+
+            </div>
+
+            <div class="mt1 mb1 taCenter md-taLeft">
+                <a href="{{ site.url }}/projects" class="button p">Voir les autres projets</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="blog col-md-12 mt12">
+
+    <div class="col-md-4 col-md-offset-1 col-sm-6 col-xs-12 inline content">
+        <h1>Blog</h1>
+    </div><!--
+
+    --><div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12 inline pt3">
+
+        {% if data.posts is empty %}
+
+            <div>
+                <p class="subtitle">Rien de prêt pour l'instant, ça arrive ;-)</p>
+            </div>
+
+        {% else %}
+
+            <ul class="postsList">
+
+                {% set nb_posts = 0 %}
+                {% for post in data.posts %}
+
+                    {% if nb_posts < 5 %}
+
+                    <li class="postsList__item">
+                        {% if post.page %}
+                            <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                        {% else %}
+                            <h3 class="title"><a target="_blank" href="{{ post.externalUrl }}">{{ post.title }}</a></h3>
+                        {% endif %}
+                        <h6 class="date">{{ post.date | date('d M Y', timezone="Europe/Paris") }}</h6>
+                    </li>
+
+                    {% endif %}
+                    {% set nb_projects = nb_projects+1 %}
+                {% endfor %}
+
+            </ul>
+
+            {% if nb_posts > 5 %}
+            <div class="taCenter"><a href="{{ site.url }}/blog" class="button p">Voir le blog</a></div>
+            {% endif %}
+
+        {% endif %}
+
+    </div>
+
+</div>
+
+
+
+
+<div class="end col-md-12 mt12 mb4"></div>
+
