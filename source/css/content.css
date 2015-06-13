@@ -2447,7 +2447,7 @@ header {
  */
 /* Bannière */
 .banner .img {
-  background-image: url("http://wuips.com/guillaume/img/mer-velo.png");
+  background-image: url("guillaume.wuips.comimg/mer-velo.png");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -2527,7 +2527,7 @@ header {
 
 /* Projets */
 .works {
-  background-image: url("http://wuips.com/guillaume/img/mac-work.jpg");
+  background-image: url("guillaume.wuips.comimg/mac-work.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -2579,7 +2579,7 @@ header {
 
 /* End */
 .end {
-  background-image: url("http://wuips.com/guillaume/img/ciel-nuage.jpg");
+  background-image: url("guillaume.wuips.comimg/ciel-nuage.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
