@@ -3,12 +3,19 @@
     <title><![CDATA[Guillaume - Projets]]></title>
     <link href="http://guillaume.wuips.com/feed.xml" rel="self"/>
     <link href="http://guillaume.wuips.com/"/>
-    <updated>2015-06-14T06:44:58+00:00</updated>
+    <updated>2015-10-26T09:26:10+00:00</updated>
     <id>http://guillaume.wuips.com/</id>
             <author>
             <name><![CDATA[Guillaume Clochard]]></name>            <email><![CDATA[clochard.guillaume@gmail.com]]></email>        </author>
         <generator uri="http://sculpin.io/">Sculpin</generator>
 
+            <entry>
+            <title type="html"><![CDATA[Développeur - Keople]]></title>
+            <link href="http://guillaume.wuips.com/projects/2015/06/01/keople"/>
+            <updated>2015-06-01T00:00:00+00:00</updated>
+            <id>http://guillaume.wuips.com/projects/2015/06/01/keople</id>
+            <content type="html"><![CDATA[]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[Console.go]]></title>
             <link href="http://guillaume.wuips.com/projects/2015/02/15/console"/>
