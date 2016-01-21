@@ -3,12 +3,40 @@
     <title><![CDATA[Guillaume - Projets]]></title>
     <link href="http://guillaume.wuips.com/feed.xml" rel="self"/>
     <link href="http://guillaume.wuips.com/"/>
-    <updated>2015-10-26T09:26:10+00:00</updated>
+    <updated>2016-01-21T20:33:44+00:00</updated>
     <id>http://guillaume.wuips.com/</id>
             <author>
             <name><![CDATA[Guillaume Clochard]]></name>            <email><![CDATA[clochard.guillaume@gmail.com]]></email>        </author>
         <generator uri="http://sculpin.io/">Sculpin</generator>
 
+            <entry>
+            <title type="html"><![CDATA[Autoradio Arduino]]></title>
+            <link href="http://guillaume.wuips.com/projects/2016/01/20/radio"/>
+            <updated>2016-01-20T00:00:00+00:00</updated>
+            <id>http://guillaume.wuips.com/projects/2016/01/20/radio</id>
+            <content type="html"><![CDATA[]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[Imprimante 3D]]></title>
+            <link href="http://guillaume.wuips.com/projects/2016/01/01/imprimante3D"/>
+            <updated>2016-01-01T00:00:00+00:00</updated>
+            <id>http://guillaume.wuips.com/projects/2016/01/01/imprimante3D</id>
+            <content type="html"><![CDATA[]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[Solveur de Rubik&#039;s Cube]]></title>
+            <link href="http://guillaume.wuips.com/projects/2015/12/01/rubikscube"/>
+            <updated>2015-12-01T00:00:00+00:00</updated>
+            <id>http://guillaume.wuips.com/projects/2015/12/01/rubikscube</id>
+            <content type="html"><![CDATA[]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[Panorame - Des selfies d&#039;envergure]]></title>
+            <link href="http://guillaume.wuips.com/projects/2015/09/01/panorame"/>
+            <updated>2015-09-01T00:00:00+00:00</updated>
+            <id>http://guillaume.wuips.com/projects/2015/09/01/panorame</id>
+            <content type="html"><![CDATA[]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[Développeur - Keople]]></title>
             <link href="http://guillaume.wuips.com/projects/2015/06/01/keople"/>

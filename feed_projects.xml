@@ -3,12 +3,40 @@
     <title><![CDATA[Guillaume - Projets]]></title>
     <link href="http://guillaume.wuips.com/feed.xml" rel="self"/>
     <link href="http://guillaume.wuips.com/"/>
-    <updated>2015-10-26T09:26:10+00:00</updated>
+    <updated>2016-01-21T20:33:44+00:00</updated>
     <id>http://guillaume.wuips.com/</id>
             <author>
             <name><![CDATA[Guillaume Clochard]]></name>            <email><![CDATA[clochard.guillaume@gmail.com]]></email>        </author>
         <generator uri="http://sculpin.io/">Sculpin</generator>
 
+            <entry>
+            <title type="html"><![CDATA[Autoradio Arduino]]></title>
+            <link href="http://guillaume.wuips.com/projects/2016/01/20/radio"/>
+            <updated>2016-01-20T00:00:00+00:00</updated>
+            <id>http://guillaume.wuips.com/projects/2016/01/20/radio</id>
+            <content type="html"><![CDATA[]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[Imprimante 3D]]></title>
+            <link href="http://guillaume.wuips.com/projects/2016/01/01/imprimante3D"/>
+            <updated>2016-01-01T00:00:00+00:00</updated>
+            <id>http://guillaume.wuips.com/projects/2016/01/01/imprimante3D</id>
+            <content type="html"><![CDATA[]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[Solveur de Rubik&#039;s Cube]]></title>
+            <link href="http://guillaume.wuips.com/projects/2015/12/01/rubikscube"/>
+            <updated>2015-12-01T00:00:00+00:00</updated>
+            <id>http://guillaume.wuips.com/projects/2015/12/01/rubikscube</id>
+            <content type="html"><![CDATA[]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[Panorame - Des selfies d&#039;envergure]]></title>
+            <link href="http://guillaume.wuips.com/projects/2015/09/01/panorame"/>
+            <updated>2015-09-01T00:00:00+00:00</updated>
+            <id>http://guillaume.wuips.com/projects/2015/09/01/panorame</id>
+            <content type="html"><![CDATA[]]></content>
+        </entry>
             <entry>
             <title type="html"><![CDATA[Développeur - Keople]]></title>
             <link href="http://guillaume.wuips.com/projects/2015/06/01/keople"/>
@@ -54,56 +82,6 @@
             <link href="http://guillaume.wuips.com/projects/2014/03/03/nodejs_openkarotz"/>
             <updated>2014-03-03T00:00:00+00:00</updated>
             <id>http://guillaume.wuips.com/projects/2014/03/03/nodejs_openkarotz</id>
-            <content type="html"><![CDATA[]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Arbres et Jardins]]></title>
-            <link href="http://guillaume.wuips.com/projects/2014/01/19/arbresetjardins"/>
-            <updated>2014-01-19T00:00:00+00:00</updated>
-            <id>http://guillaume.wuips.com/projects/2014/01/19/arbresetjardins</id>
-            <content type="html"><![CDATA[<h1>Arbres et Jardins</h1>
-
-<p>Date : janvier 2014 | <a href="http://www.arbresetjardinspassion.fr">arbresetjardinspassion.fr</a></p>
-
-<p>Intégration et développement Wordpress du site web <a href="http://www.arbresetjardinspassion.fr">arbresetjardinspassion.fr</a> présentant les services d'un jardinier paysagiste.</p>
-
-<p>Mise en place de différentes pages, différents types de posts (articles, réaliations), de profils sociaux et d'une solution de newsletter.</p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Module NodeJS : Karotz]]></title>
-            <link href="http://guillaume.wuips.com/projects/2013/08/20/nodejs_karotz"/>
-            <updated>2013-08-20T00:00:00+00:00</updated>
-            <id>http://guillaume.wuips.com/projects/2013/08/20/nodejs_karotz</id>
-            <content type="html"><![CDATA[]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Wuip&#039;s]]></title>
-            <link href="http://guillaume.wuips.com/projects/2013/08/01/wuips"/>
-            <updated>2013-08-01T00:00:00+00:00</updated>
-            <id>http://guillaume.wuips.com/projects/2013/08/01/wuips</id>
-            <content type="html"><![CDATA[<h1>Wuip's</h1>
-
-<p>Date : été 2013 | <a href="http://wuips.com">wuips.com</a></p>
-
-<div class="row">
-    <div class="inline col-md-6">
-        <p>
-            Wuip's représente l'équipe que je forme avec Martin Bonnier. Complentaires (design et technique), nous réalisons des sites internets originaux et créatifs, le plus souvent sous Wordpress.
-        </p>
-        <p>
-            Pour voir nos projets ou nous contacter, <a href="http://wuips.com">c'est par ici</a>.
-        </p>
-    </div><!-- 
- --><img src="http://guillaume.wuips.com/img/wuips-1.png" alt="" class="inline col-md-5 col-md-offset-1 col-sm-12 col-xs-12">
-</div>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Deezer server]]></title>
-            <link href="http://guillaume.wuips.com/projects/2013/07/20/deezer_server"/>
-            <updated>2013-07-20T00:00:00+00:00</updated>
-            <id>http://guillaume.wuips.com/projects/2013/07/20/deezer_server</id>
             <content type="html"><![CDATA[]]></content>
         </entry>
     
