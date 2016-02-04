@@ -3,7 +3,7 @@
     <title><![CDATA[Guillaume - Projets]]></title>
     <link href="http://guillaume.wuips.com/feed.xml" rel="self"/>
     <link href="http://guillaume.wuips.com/"/>
-    <updated>2016-01-21T20:33:44+00:00</updated>
+    <updated>2016-02-04T10:34:17+00:00</updated>
     <id>http://guillaume.wuips.com/</id>
             <author>
             <name><![CDATA[Guillaume Clochard]]></name>            <email><![CDATA[clochard.guillaume@gmail.com]]></email>        </author>
@@ -176,7 +176,7 @@
 
     <div class="col-md-6 inline">
         <p>
-            foglo est une application web conçue pour les nantais. Basé sur les données libres, des services comme Yahoo! Weather, Twitter et Facebook, foglo se propose d'être l'agrégateur de multiples données. 
+            foglo est une application web conçue pour les Nantais. Basé sur les données libres, des services comme Yahoo! Weather, Twitter et Facebook, foglo se propose d'être l'agrégateur de multiples données.
         </p>
         <p>
             L'application a remporté le prix Etudiant de <a href="http://data.nantes.fr">l'appel à projet de Nantes Métropole</a>.
@@ -185,7 +185,7 @@
         <p>
             Depuis le printemps 2012, beaucoup de choses se sont passées et notamment le <a href="https://github.com/foglo">partage du code en open-source</a>.
         </p>
-    </div><!-- 
+    </div><!--
 
  --><div class="col-md-6 inline">
         <div class="row">
