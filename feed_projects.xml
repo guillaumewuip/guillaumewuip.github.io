@@ -3,7 +3,7 @@
     <title><![CDATA[Guillaume - Projets]]></title>
     <link href="http://guillaume.wuips.com/feed.xml" rel="self"/>
     <link href="http://guillaume.wuips.com/"/>
-    <updated>2016-02-08T19:17:32+00:00</updated>
+    <updated>2016-06-03T19:29:03+00:00</updated>
     <id>http://guillaume.wuips.com/</id>
             <author>
             <name><![CDATA[Guillaume Clochard]]></name>            <email><![CDATA[clochard.guillaume@gmail.com]]></email>        </author>
@@ -56,7 +56,7 @@
             <link href="http://guillaume.wuips.com/projects/2014/12/02/ScribeJS"/>
             <updated>2014-12-02T00:00:00+00:00</updated>
             <id>http://guillaume.wuips.com/projects/2014/12/02/ScribeJS</id>
-            <content type="html"><![CDATA[<h1>Scribe.js</h1>
+            <content type="html"><![CDATA[<h1 id="scribe.js">Scribe.js</h1>
 
 <p>Date : depuis automne 2014 | <a href="https://github.com/bluejamesbond/Scribe.js">Github : Scribe.js</a></p>
 
