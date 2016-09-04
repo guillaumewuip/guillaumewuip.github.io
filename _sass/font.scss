@@ -92,14 +92,14 @@ h2, .h2 {
 
     @include margin-top(1.8);
     @include margin-bottom(1);
-    
+
     font-weight: 100;
 }
 
 h3, .h3 {
     @include font-size(24);
     @include line-height(34);
-    
+
     @include margin-top(1.6);
     @include margin-bottom(1);
 
@@ -109,7 +109,7 @@ h3, .h3 {
 h4, .h4 {
     @include font-size(24);
     @include line-height(24);
-    
+
     //margin-bottom: 25px;
 
     font-weight: 300;
@@ -143,18 +143,18 @@ h6, .h6 {
  */
 
 
-p, .p, 
-li, 
-label, 
+p, .p,
+li,
+label,
 span,
 button,
 input[type="text"], input[type="email"],
 figcaption {
-    
+
     @include font-family;
     @include font-size(18);
     @include line-height(28);
-    
+
     font-weight: 300;
 
     color: $grisDark;
@@ -241,17 +241,7 @@ a.button {
 
 .tag {
     @extend .button;
-
     @include padding(0.3,0.5,0.3,0.5);
-
-    &:not(.notHover):hover {
-        color: $grisMoyen;
-        border-color: $grisMoyen;
-    }
+    @include font-size(14);
+    @include line-height(24);
 }
-    .tag span, 
-    .tag a {
-        @include font-size(14);
-        @include line-height(24);
-    }
-

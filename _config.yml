@@ -1,11 +1,23 @@
 title: Guillaume
 email: guillaume@wuips.com
 description: Guillaume Wuip personnal website
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://guillaume.wuips.com" # the base hostname & protocol for your site
+baseurl: ""
+#url: "http://guillaume.wuips.com"
+url: "http://localhost:4000"
 twitter_username: guillaumewuip
 github_username: guillaumewuip
 
 # Build settings
 markdown: kramdown
-theme: none
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: post
