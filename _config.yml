@@ -2,8 +2,7 @@ title: Guillaume
 email: guillaume@wuips.com
 description: Guillaume Wuip personnal website
 baseurl: ""
-#url: "http://guillaume.wuips.com"
-url: "http://localhost:4000"
+url: "http://guillaume.wuips.com"
 twitter_username: guillaumewuip
 github_username: guillaumewuip
 
