@@ -83,7 +83,7 @@ h1, .h1 {
     @include margin-top(2);
     @include margin-bottom(2);
 
-    font-weight: 100;
+    font-weight: 300;
 }
 
 h2, .h2 {
@@ -93,7 +93,7 @@ h2, .h2 {
     @include margin-top(1.8);
     @include margin-bottom(1);
 
-    font-weight: 100;
+    font-weight: 300;
 }
 
 h3, .h3 {
@@ -240,7 +240,15 @@ a.button {
  */
 
 .tag {
-    @extend .button;
+    display: inline-block;
+
+    @include padding(1,1,1,1);
+
+    background: transparent;
+    border: none;
+    border : 1px solid $grisMoyen;
+    border-radius: 2px;
+
     @include padding(0.3,0.5,0.3,0.5);
     @include font-size(14);
     @include line-height(24);
