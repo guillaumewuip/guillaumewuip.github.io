@@ -13,11 +13,13 @@ $(document).ready(function(){
         .typist('prompt', 'h1 class="term-line"')
         .typist('type', "> ")
         .typist('wait', 1000)
-        .typist('type', "I'm a 21 year old student from France and a web developer.")
+        .typist('type', "I'm a 21 year old student from France and a web developer")
         .typist('prompt', 'h1 class="term-line"')
         .typist('type', "> ")
         .typist('wait', 1000)
-        .typist('type', "This summer I'd like to be your intern !")
+        .typist('type', "This summer ")
+        .typist('wait', 300)
+        .typist('type', "I'd like to be your intern !")
         .typist('prompt', 'h1 class="term-line"')
         .typist('type', "> ");
         // .typist('hideCursor');
