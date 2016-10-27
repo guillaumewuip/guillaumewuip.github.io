@@ -6,9 +6,21 @@ $(document).ready(function(){
     $('.js-terminal').empty();
 
     $('.js-terminal')
-        .typist('prompt', 'h1 class="title mb1"').typist('wait', 1000)
-        .typist('type', 'Je suis étudiant et développeur web.')
-        .typist('hideCursor');
+        .typist('prompt', 'h1 class="term-line"')
+        .typist('type', "> ")
+        .typist('wait', 1000)
+        .typist('type', "Hi !")
+        .typist('prompt', 'h1 class="term-line"')
+        .typist('type', "> ")
+        .typist('wait', 1000)
+        .typist('type', "I'm a 21 year old student from France and a web developer.")
+        .typist('prompt', 'h1 class="term-line"')
+        .typist('type', "> ")
+        .typist('wait', 1000)
+        .typist('type', "This summer I'd like to be your intern !")
+        .typist('prompt', 'h1 class="term-line"')
+        .typist('type', "> ");
+        // .typist('hideCursor');
 
 
     $('.js-slideToTop').click(function(e) {

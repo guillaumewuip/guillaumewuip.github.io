@@ -4,30 +4,24 @@
 
 header {
 	@include padding(2,0,1,0);
-
-	//@include margin(2,0,3,0);
+    position: relative;
+    z-index: 100;
 }
 
 	.logo h1 {
 		@include font-size(22);
 		@include line-height(32);
-
 		@include margin(0,0,0,0);
-
 		font-weight: 400;
 	}
 
 	.logo h2 {
 		@include font-size(16);
 		@include line-height(16);
-
 		@include margin(0,0,0,0);
 	}
 
-
-	.navigation {
-
-	}
+	.navigation {}
 
 		.navigation ul {
 			padding : 0;
@@ -36,11 +30,19 @@ header {
 
 		.navigation li {
 			list-style: none;
-
 			@include font-size(16);
-
 			@include padding(0,0.4,0,0.4);
 		}
+
+    .transparent .navigation a {
+        color: white;
+        opacity: .7;
+    }
+
+    .transparent .navigation a:hover {
+        opacity: 1;
+    }
+
 
 .goTop {
     position: fixed;
@@ -64,38 +66,37 @@ header {
  * Index
  */
 
+.front-block {
+    position: relative;
+    height: 100vh;
+    background-image: url($siteurl+'img/mer-velo.png');
+    background-size: cover;
+    background-position: center center;
+}
+
 /* Bannière */
 
-.banner {}
-    .banner .img {
-        background-image: url($siteurl+'img/mer-velo.png');
-
-        background-position: center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-
-        height: 300px;
-
-        border-radius: 2px;
-    }
+.banner {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
 
     .banner .terminal {
-        min-height: 2em;
+        min-height: 14em;
     }
 
-	.banner .title {
-		font-weight: 300;
-		@include font-size(32);
-		@include line-height(40);
-
-		//color: $white;
+	.banner .term-line,
+    .banner .term-line .cursor {
+        font-family: "Cousine", "Courier", sans-serif;
+		@include font-size(18);
+		@include line-height(18);
+        color: $white;
 	}
-        //Pour Typist
-        .banner .title .cursor {
-            @extend .title;
-        }
+    .banner .term-line .cursor {
+        font-weight: bold;
+    }
 
 .goNext {
     text-decoration: none;
@@ -106,7 +107,7 @@ header {
     }
 }
     .goNext span {
-        @include font-size(52);
+        @include font-size(18);
     }
 
 /* A propos */

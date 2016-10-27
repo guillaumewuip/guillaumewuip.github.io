@@ -1,22 +1,27 @@
 ---
-layout: default
+layout: home
 ---
-<div class="banner col-md-8 col-md-offset-2 taCenter xs-mt1 sm-mt2">
-    <div class="img hidde md-block"></div>
-    <div class="terminal js-terminal">
-        <h1 class="title mb1">Je suis étudiant et développeur web.</h1>
+<div class="row front-block">
+
+    {% include navbar.html style=transparent %}
+
+    <div class="banner">
+        <div class="terminal js-terminal col-md-8 col-md-offset-2 xs-mt1 sm-mt2">
+            <h1 class="term-line js-mb0">
+                Hi !
+            </h1>
+            <h1 class="term-line js-mb1">
+                I'm a 21 year old student from France and a web developer.
+            </h1>
+            <h1 class="term-line js-mb2">
+                This summer I'd like to be your intern.
+            </h1>
+        </div>
+
+        <div class="img md-hidde mt2"></div>
     </div>
 
-    <div class="img md-hidde mt2"></div>
 </div>
-
-<div class="col-xs-12 mt3 taCenter">
-    <a href="#a-propos" class="goNext js-goToID" data-target="a-propos"><span>↓</span></a>
-</div>
-
-
-
-
 
 <div class="col-md-8 col-md-offset-1 mt3" id="a-propos">
     <h1>A Propos</h1>
