@@ -1,9 +1,9 @@
 ---
 title: SSH Slack Bot
 
-desc: |
-    Réalisation d'un bot Slack exécutant des commandes via SSH.
-    <br>Le projet sur Github : <a href="https://github.com/guillaumewuip/ssh-slack-bot">ssh-slack-bot</a>.
+desc: >
+    Built a Slack bot that execute commands with SSH.
+    <br>On Github : <a href="https://github.com/guillaumewuip/ssh-slack-bot">ssh-slack-bot</a>.
 
 page: false
 

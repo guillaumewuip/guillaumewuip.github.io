@@ -7,7 +7,7 @@ page: false
 layout : post-left
 
 desc: >
-Réalisation d'un <a href="http://cordova.io">plugin cordova</a> pour récupérer le prochain réveil configuré sur un smartphone android avec une application cordova. Le projet sur Github : <a href="https://github.com/guillaumewuip/cordova-AlarmPlugin">Cordova AlarmPlugin</a>.
+    <a href="http://cordova.io">Cordova plugin</a> getting the next alarm set on the phone. Project sur Github : <a href="https://github.com/guillaumewuip/cordova-AlarmPlugin">Cordova AlarmPlugin</a>.
 
 tags:
     - Java

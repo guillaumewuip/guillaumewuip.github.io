@@ -1,8 +1,11 @@
 ---
 
-title: Solveur de Rubik's Cube
+title: Rubik's Cube solver
 
-desc: Réalisation en équipe de six d'un solveur de Rubik's cube en Python dans le cadre du cours Algorithmique et Programmation à Polytech Nantes. Le <a target="_blank" href="https://github.com/Togodumnus/Ragnulf" title="Github">code sur Github</a>.
+desc: >
+    In a team of 6, I've built a Rubik's cube solver in Python in the course
+    "Algorithmique et Programmation" at Polytech Nantes.
+    <br><a target="_blank" href="https://github.com/Togodumnus/Ragnulf" title="Github">The code is on the Github of the team</a>.
 
 page: false
 

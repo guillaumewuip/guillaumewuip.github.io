@@ -1,8 +1,10 @@
 ---
 
-title: Imprimante 3D
+title: 3D Printer
 
-desc: Mise en route d'une imprimante 3D Discovery200 de Dagoma avec mise en réseau à l'aide de OctoPrint.
+desc: >
+    Playing with a new 3D printer at home (Discovery200 de Dagoma) and OctoPrint
+    to control it from the network.
 
 page: false
 

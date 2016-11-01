@@ -123,6 +123,7 @@ header {
         height: 6 +rem;
     }
 
+        .competences .svg.php svg,
         .competences .svg.html svg,
         .competences .svg.js svg,
         .competences .svg.angular svg,
@@ -140,36 +141,19 @@ header {
             height: 6 +rem;
         }
 
-        .competences .svg.html svg,
-        .competences .svg.html svg *,
-
-        .competences .svg.js svg,
-        .competences .svg.js svg *,
-
-        .competences .svg.angular svg,
-        .competences .svg.angular svg *,
-
-        .competences .svg.wp svg,
-        .competences .svg.wp svg *,
-
-        .competences .svg.nodejs svg,
-        .competences .svg.nodejs svg *,
-
-        {
+        .competences .svg svg,
+        .competences .svg svg * {
         	fill: $grisMoyen !important;
         }
 
         .competences .svg.html svg *:nth-child(4),
         .competences .svg.html svg *:last-child,
-
         .competences .svg.js svg *:nth-child(2),
         .competences .svg.js svg *:nth-child(3),
-
+        .competences .svg.php svg path,
         .competences .svg.angular svg,
         .competences .svg.angular svg path,
-        .competences .svg.angular svg polygon:last-child,
-
-        {
+        .competences .svg.angular svg polygon:last-child {
         	fill: $white !important;
         }
 

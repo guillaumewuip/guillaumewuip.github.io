@@ -1,9 +1,11 @@
 ---
 title: Pluie dans l'heure
 
-desc: |
-    Librairie NodeJS intérrogeant la foncton Pluie dans l'heure de Météo France.
-    <br>Le projet sur Github : <a href="https://github.com/guillaumewuip/pluie-dans-l-heure">pluie-dans-l-heure</a>.
+desc: >
+    NodeJS library that extract the "Will it rain within one hour?" data from
+    Météo France.
+    <br>
+    It's on Github : <a href="https://github.com/guillaumewuip/pluie-dans-l-heure">pluie-dans-l-heure</a>.
 
 page: false
 

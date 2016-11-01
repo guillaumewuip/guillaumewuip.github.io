@@ -4,12 +4,9 @@ permalink: /contact/
 layout: post
 ---
 
-# Me contacter
+# Contact me
 
-N'hésitez pas à me contacter :
+You can find me on Twitter [@guillaumewuip](http://twitter.com/guillaumewuip) or by email at [guillaume@wuips.com](mailto:guillaume@wuips.com) :-)
 
-- via mail : [guillaume@wuips.com](mailto:guillaume@wuips.com)
-- via twitter : [@guillaumewuips](http://twitter.com/guillaumewuip)
 
-Je vous répondrais rapidement !
 

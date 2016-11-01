@@ -1,9 +1,10 @@
 ---
 title: Clio steering wheel
 
-desc: |
-    Une librairie Arduino pour écouter les commandes de la radio envoyés par la manette placée sous le volant d'une Clio 2.
-    <br>Le projet sur Github : <a href="https://github.com/guillaumewuip/clioSteeringWheelCmd">clioSteeringWheelCmd</a>.
+desc: >
+    Arduino library listening to commands from the remote control of the
+    steering wheel of a Renault Clio 2.
+    <br>Project on Github : <a href="https://github.com/guillaumewuip/clioSteeringWheelCmd">clioSteeringWheelCmd</a>.
 
 page: false
 

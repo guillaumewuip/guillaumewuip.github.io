@@ -43,8 +43,8 @@ layout: home
 </p>
 
 <p>
-    I have learn these skills on my own and at school. I'm constantly learning
-    and I often push new  projects on my
+    I have learn these skills on my own and at school. I try to learn constantly
+    and I often push new projects on my
     <a href="https://github.com/guillaumewuip">github</a>.
 </p>
 
@@ -57,7 +57,7 @@ layout: home
 
 <div class="col-md-10 col-md-offset-1 mt6 competences">
 
-    <h1>Compétences</h1>
+    <h1>Coding Skills</h1>
 
     <ul class="p0 mt3 taCenter">
 
@@ -67,55 +67,44 @@ layout: home
             </div>
             <h3 class="mb0">HTML / CSS</h3>
         </li><!--
-     --><li class="inline md-w20 sm-w30 xs-w50 xs-mb2 taCenter">
-            <div class="svg js">
-                {% include img/js.svg %}
-            </div>
-            <h3 class="mb0">Javascript</h3>
-        </li><!--
-     --><li class="inline md-w20 sm-w30 xs-w50 xs-mb2 taCenter">
-            <div class="svg angular">
-                {% include img/angular.svg %}
-            </div>
-            <h3 class="mb0">Angular</h3>
-        </li><!--
-     --><li class="inline md-w20 sm-w30 xs-w50 xs-mb2 taCenter">
-            <div class="svg wp">
-                {% include img/wp.svg %}
-            </div>
-            <h3 class="mb0">WordPress</h3>
-        </li><!--
-     --><li class="inline md-w20 sm-w30 xs-w50 xs-mb2 taCenter">
+        --><li class="inline md-w20 sm-w30 xs-w50 xs-mb2 taCenter">
             <div class="svg nodejs">
                 {% include img/nodejs.svg %}
             </div>
             <h3>NodeJS</h3>
+        </li><!--
+        --><li class="inline md-w20 sm-w30 xs-w50 xs-mb2 taCenter">
+            <div class="svg angular">
+                {% include img/angular.svg %}
+            </div>
+            <h3 class="mb0">JS frameworks</h3>
+        </li><!--
+        --><li class="inline md-w20 sm-w30 xs-w50 xs-mb2 taCenter">
+            <div class="svg php">
+                {% include img/php.svg %}
+            </div>
+            <h3 class="mb0">PHP</h3>
         </li>
-
     </ul>
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-sm-8 inline vBottom">
-            <h2>Et aussi :</h2>
-            <p class="mb0">SASS, Grunt, Go, Python, Arduino, RaspberryPi, Android, Karotz, ...</p>
+            <h2>And also :</h2>
+            <p class="mb0">JAVA, C++/C, Docker, Git, SASS, Grunt, Go, Python,
+                Arduino, RaspberryPi, Android, Karotz, Vim ...</p>
         </div><!--
     --><p class="col-xs-12 col-sm-12 col-sm-4 inline vBottom taRight xs-taCenter m0 xs-mt2">
-            <a class="button" href="{{ site.url }}/CV_Guillaume-Clochard.pdf">Voir mon CV</a>
+            <a class="button" href="{{ site.url
+                }}/CV_Guillaume-Clochard.pdf">See my CV/Resume</a>
         </p>
     </div>
-
 </div>
-
-
-
-
-
 
 <div class="works col-md-12 mt12">
     <div class="row over">
 
         <h1 class="title inline col-md-4 col-md-offset-1 col-sm-12 col-xs-12 ftw4 ltSpace2 cfff">
-            Mes derniers projets
+            Some of my last projects
         </h1><!--
 
      --><div class="inline col-md-7 col-sm-12 col-xs-12 h100 projetsList cfff tiny">
@@ -143,7 +132,7 @@ layout: home
                                 {{ project.date | date: "%b %Y" }}
 
                                 {% if project.page %}
-                                     | <span><a href="{{ project.url }}">Voir</a></span>
+                                     | <span><a href="{{ project.url }}">More</a></span>
                                 {% endif %}
                             </h3>
 
@@ -158,7 +147,8 @@ layout: home
                         </div><!--
 
                      -->{% if project.page %}<div class="link col-md-2 col-xs-2 hidde md-inline">
-                            <span><a href="{{ project.url }}" class="button p ">Voir</a></span>
+                            <span><a href="{{ project.url }}" class="button p
+                                    ">More</a></span>
                         </div>
                         {% endif %}
 
@@ -172,16 +162,12 @@ layout: home
             </div>
 
             <div class="mt1 mb1 taCenter md-taLeft">
-                <a href="{{ site.url }}/projects" class="button p">Voir les autres projets</a>
+                <a href="{{ site.url }}/projects" class="button p">All projects</a>
             </div>
 
         </div>
     </div>
 </div>
-
-
-
-
 
 <div class="blog col-md-12 mt12">
 

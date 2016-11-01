@@ -1,10 +1,10 @@
 ---
 title: robotWhoQuotes
 
-desc: |
-    Un bot twitter <a href="http://twitter.com/robotWhoQuotes" >@robotWhoQuotes</a> donnant
-    une citation par jour.
-    <br>Le projet sur Github : <a href="https://github.com/guillaumewuip/robotWhoQuotes">robotWhoQuotes</a>.
+desc: >
+    <a href="http://twitter.com/robotWhoQuotes" >@robotWhoQuotes</a> is a
+    Twitter bot that send one quote a day.
+    <br>It's on Github : <a href="https://github.com/guillaumewuip/robotWhoQuotes">robotWhoQuotes</a>.
 
 page: false
 
