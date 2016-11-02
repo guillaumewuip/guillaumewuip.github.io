@@ -12,6 +12,6 @@ page: false
 tags:
     - Python
     - Polytech
-    - Gestion de project
+    - Project management
 ---
 
