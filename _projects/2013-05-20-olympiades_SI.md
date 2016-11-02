@@ -1,6 +1,6 @@
 ---
 
-title: Olympiades de Sciences de l'ingénieur
+title: Olympiades des Sciences de l'ingénieur
 
 page: false
 

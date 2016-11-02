@@ -5,12 +5,13 @@ permaling: /projects/
 ---
 
 <h1 class="col-md-10 col-sm-10 col-sm-offset-1 col-md-offset-1">
-    Projets
+    Projects
 </h1>
 
 <p class="col-md-8 col-sm-10 col-sm-offset-1 col-md-offset-1">
-    Voici la liste de tout mes projets, (très) petits ou grands, personnels ou scolaires. <br>
-    Vous pouvez retrouver une partie de mes projets sur <a href="http://github.com/guillaumewuip">Github</a>.
+    Here are a list of all my tech projects, small or big, personnal or for
+    scholl. <br>
+    You can find a lot of them on my <a href="http://github.com/guillaumewuip">Github</a>.
 </p>
 
 
@@ -34,7 +35,7 @@ permaling: /projects/
                         {{ project.date | date : "%b %Y" }}
 
                         {% if project.page %}
-                             | <span><a href="{{ project.url }}">Voir</a></span>
+                             | <span><a href="{{ project.url }}">See</a></span>
                         {% endif %}
                     </h3>
 
@@ -49,7 +50,7 @@ permaling: /projects/
                 </div><!--
 
              -->{% if project.page %}<div class="link col-md-2 col-xs-2 hidde md-inline">
-                    <span><a href="{{ project.url }}" class="button p ">Voir</a></span>
+                    <span><a href="{{ project.url }}" class="button p ">See</a></span>
                 </div>
                 {% endif %}
 

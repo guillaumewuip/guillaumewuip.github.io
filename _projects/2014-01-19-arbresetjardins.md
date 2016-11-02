@@ -9,7 +9,7 @@ layout : post-left
 desc: Wordpress development for a gardener <a href="http://www.arbresetjardinspassion.fr">arbresetjardinspassion.fr</a>
 
 tags:
-    - Site internet
+    - Website
     - Wuip's
     - Wordpress
 
