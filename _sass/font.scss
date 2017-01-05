@@ -166,6 +166,26 @@ p, .p, {
     @include margin(1,0,1.2,0);
 }
 
+.alinea p {
+    text-indent: 60px;
+    text-indent: 3rem;
+}
+
+.letter h1,
+.letter h2,
+.letter h3,
+.letter h4,
+.letter h5,
+.letter h6,
+.letter p {
+    font-family: "Open Sans", "Open Sans", "Helvetica", "Arial", "sans-serif";
+}
+
+.letter p {
+    @include font-size(16);
+    @include line-height(26);
+    letter-spacing: 0;
+}
 
 
 
@@ -253,3 +273,5 @@ a.button {
     @include font-size(14);
     @include line-height(24);
 }
+
+
