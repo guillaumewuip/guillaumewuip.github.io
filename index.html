@@ -35,29 +35,27 @@ layout: default
 
 <h2>Projects</h2>
 
-<ul>
+<ul class="projects">
 {% for project in site.projects reversed %}
-  <li>
-    {{ project.date | date: "%b %Y" }}
+  <li class="project">
+    <div class="link">
+      {{ project.date | date: "%b %Y" }}
 
-    -
+      -
 
-    {{ project.title }}
+      {{ project.title }}
+    </div>
 
-    -
+    <div class="project-content">
+      {{ project.desc | raw }}
 
-    <!-- {{ project.desc | raw }}  -->
+      <br />
+      <br />
 
-    {% for tag in project.tags %}
-        <span class="tag">{{ tag }}</span>
-    {% endfor %}
-
-    -
-
-    {% if project.page %}
-      <span><a href="{{ project.url }}" class="button p
-      ">More</a></span>
-    {% endif %}
+      {% for tag in project.tags %}
+        <p class="tag">{{ tag }}</p>
+      {% endfor %}
+    </div>
   </li>
 {% endfor %}
 </ul>
