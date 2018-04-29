@@ -1,7 +1,113 @@
 ---
 ---
 
-@import 'base';
-@import 'font';
-@import 'blocks';
+$white: rgb(254, 254, 255);
+$black: rgb(50, 55, 50);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Cousine, Courier, monospace;
+  font-size: 12px;
+  line-height: 1.4rem;
+  text-rendering: geometricPrecision;
+  color: $black;
+  width: 100%;
+  height: 100%;
+}
+
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.link {
+  display: inline-block;
+  color: $black;
+  position: relative;
+  text-decoration: none;
+  z-index: 1;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  cursor: pointer;
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0.2rem;
+    z-index: -1;
+    background: $black;
+  }
+
+  &:hover {
+    @extend .link.mod-hover;
+  }
+}
+
+.link.mod-hover {
+  color: $white;
+
+  &:before {
+    height: calc(100% + 2px);
+    height: 100%;
+  }
+}
+
+a {
+  @extend .link;
+}
+
+
+ul {
+  padding-left: 1.2rem;
+}
+
+.container {
+  width: 100%;
+  padding: 4rem;
+  padding-top: 40vh;
+  background: $white;
+}
+
+.projects {}
+
+  .project {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+  }
+
+    .project:hover > .link {
+      @extend .link.mod-hover;
+    }
+
+    .project-content {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      width: 40%;
+      display: none;
+    }
+
+    .project:hover > .project-content {
+      display: block
+    }
+
 

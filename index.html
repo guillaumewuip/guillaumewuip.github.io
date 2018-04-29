@@ -1,200 +1,75 @@
 ---
-layout: home
+layout: default
 ---
-<div class="row front-block">
 
-    {% include navbar.html style='transparent' %}
+<h1>Guillaume</h1>
 
-    <div class="banner hidden-xs">
-        <div class="img md-hidde mt2"></div>
+<br />
+
+<h2><a href="mailto:clochard.guillaume@gmail.com">clochard.guillaume@gmail.com</a></h2>
+
+<br />
+
+<p>Frontend developer @ <a href="https://iadvize.com">iAdvize</a></p>
+<p><a href="http://web.polytech.univ-nantes.fr/">Polytech Nantes</a> alumni</p>
+<p><a href="http://twitter.com/ReactNantes">ReactNantes</a> meetup</p>
+
+<br />
+
+<p>
+  <a href="http://guillaume.wuips.com/CV_Guillaume-Clochard.pdf">CV</a>
+  - <a href="http://github.com/guillaumewuip">Github</a>
+  - <a href="https://www.linkedin.com/in/guillaume-clochard/">Linkedin</a>
+  - <a href="https://twitter/GuillaumeWuip">Twitter</a>
+</p>
+
+<h2>Experiences</h2>
+
+<p>
+  <a href="http://zenbus.fr">JOUL</a>
+  - <a href="http://keople.net">Keople</a>
+  - <a href="http://lengow.fr">Lengow</a>
+  - <a href="http://stuart.com">Stuart</a>
+  - <a href="http://iadvize.com">iAdvize</a>
+</p>
+
+<h2>Projects</h2>
+
+<ul class="projects">
+{% for project in site.projects reversed %}
+  <li class="project">
+    <div class="link">
+      {{ project.date | date: "%b %Y" }}
+
+      -
+
+      {{ project.title }}
     </div>
 
-</div>
+    <div class="project-content">
+      {{ project.desc | raw }}
 
-<div class="col-md-8 col-md-offset-1 mt3" id="a-propos">
-    <h1>About me</h1>
+      <br />
+      <br />
 
-<p>
-    My name is Guillaume Clochard. I am 22 years old and I live in Nantes,
-    France.
-
-</p>
-<p>
-    I am a Computer science student at Polytech Nantes, the Graduate School of
-    Engineering of the University of Nantes. I'm also a web developer.
-</p>
-
-<p>
-    I work mainly with NodeJS, Javascript frameworks, HTML5 and PHP to build
-    websites and web applications. I love working in teams and learning new
-    things on the go.
-    A few years ago, I've launched <a href="http://foglo.fr">foglo</a>.
-</p>
-
-<p>
-    I have learned these skills on my own and at school. I try to learn constantly
-    and I often push new projects on my
-    <a href="https://github.com/guillaumewuip">github</a>.
-</p>
-
-<p>
-    Just take a look at my <a href="{{ site.url }}/projects">Projects</a>.
-    This is where you could find the history of all my projects so far,
-    big or small.
-</p>
-</div>
-
-<div class="col-md-10 col-md-offset-1 mt6 competences">
-
-    <h1>Coding Skills</h1>
-
-    <ul class="p0 mt3 taCenter">
-
-        <li class="inline md-w20 sm-w30 xs-w50 xs-mb2 taCenter">
-            <div class="svg html">
-                {% include img/html.svg %}
-            </div>
-            <h3 class="mb0">HTML / CSS</h3>
-        </li><!--
-        --><li class="inline md-w20 sm-w30 xs-w50 xs-mb2 taCenter">
-            <div class="svg nodejs">
-                {% include img/nodejs.svg %}
-            </div>
-            <h3>NodeJS</h3>
-        </li><!--
-        --><li class="inline md-w20 sm-w30 xs-w50 xs-mb2 taCenter">
-            <div class="svg angular">
-                {% include img/angular.svg %}
-            </div>
-            <h3 class="mb0">JS frameworks</h3>
-        </li><!--
-        --><li class="inline md-w20 sm-w30 xs-w50 xs-mb2 taCenter">
-            <div class="svg php">
-                {% include img/php.svg %}
-            </div>
-            <h3 class="mb0">PHP</h3>
-        </li>
-    </ul>
-
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-sm-8 inline vBottom">
-            <h2>And also :</h2>
-            <p class="mb0">JAVA, C++/C, R, Docker, Git, SASS, Grunt, Go, Python,
-                Arduino, RaspberryPi, Android, Karotz, Vim ...</p>
-        </div><!--
-    --><p class="col-xs-12 col-sm-12 col-sm-4 inline vBottom taRight xs-taCenter m0 xs-mt2">
-            <a class="button" href="{{ site.url
-                }}/CV_Guillaume-Clochard.pdf">See my CV/Resume</a>
-        </p>
+      {% for tag in project.tags %}
+        <p class="tag">{{ tag }}</p>
+      {% endfor %}
     </div>
-</div>
+  </li>
+{% endfor %}
+</ul>
 
-<div class="works col-md-12 mt12">
-    <div class="row over">
+<h2>Articles</h2>
 
-        <h1 class="title inline col-md-4 col-md-offset-1 col-sm-12 col-xs-12 ftw4 ltSpace2 cfff">
-            Some of my last projects
-        </h1><!--
-
-     --><div class="inline col-md-7 col-sm-12 col-xs-12 h100 projetsList cfff tiny">
-
-            <div class="row">
-
-                <!--{% increment nb_projects %}-->
-                {% for project in site.projects reversed %}
-
-                {% if nb_projects > 3 %}
-                    {% break %}
-                {% endif %}
-
-                <div class="projetsList__item col-md-12 col-sm-12 col-xs-12 {% if project.page %} big {% endif %}">
-                    <div class="row">
-
-                        <div class="date col-md-2 col-sm-3 inline xs-hidde inline taCenter">
-                            <p>{{ project.date | date: "%b %Y" }}</p>
-                        </div><!--
-
-                     --><div class="info col-md-8 col-sm-9 col-xs-12 inline">
-                            <h2>{{ project.title }}</h2>
-
-                            <h3 class="p md-hidde sm-block xs-block">
-                                {{ project.date | date: "%b %Y" }}
-
-                                {% if project.page %}
-                                     | <span><a href="{{ project.url }}">More</a></span>
-                                {% endif %}
-                            </h3>
-
-                            <p> {{ project.desc | raw }} </p>
-
-                            <div>
-                                {% for tag in project.tags %}
-                                    <span class="tag">{{ tag }}</span>
-                                {% endfor %}
-                            </div>
-
-                        </div><!--
-
-                     -->{% if project.page %}<div class="link col-md-2 col-xs-2 hidde md-inline">
-                            <span><a href="{{ project.url }}" class="button p
-                                    ">More</a></span>
-                        </div>
-                        {% endif %}
-
-                    </div>
-                </div>
-
-                <!--{% increment nb_projects %}-->
-
-                {% endfor %}
-
-            </div>
-
-            <div class="mt1 mb1 taCenter md-taLeft">
-                <a href="{{ site.url }}/projects" class="button p">All projects</a>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-<div class="blog col-md-12 mt12">
-
-    <div class="col-md-2 col-md-offset-1 col-sm-2 col-xs-12 inline content">
-        <h1>Blog</h1>
-    </div><!--
-
-    --><div class="col-md-6 col-md-offset-1 col-sm-9 col-sm-offset-1 col-xs-12 inline pt3">
-
-        <ul class="postsList">
-
-            <!--{% increment nb_posts  %}-->
-            {% for post in site.posts %}
-
-                {% if nb_posts < 5 %}
-
-                <li class="postsList__item">
-                    {% if post.page %}
-                        <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                    {% else %}
-                        <h3 class="title"><a target="_blank" href="{{ post.externalUrl }}">{{ post.title }}</a></h3>
-                    {% endif %}
-                    <h6 class="date">{{ post.date | date: "%d %b %Y" }}</h6>
-                </li>
-                {% endif %}
-
-                <!--{% increment nb_posts  %}-->
-            {% endfor %}
-
-        </ul>
-
-        {% if nb_posts > 5 %}
-        <div class="taCenter"><a href="{{ site.url }}/blog" class="button p">Voir le blog</a></div>
-        {% endif %}
-
-    </div>
-
-</div>
-
-<div class="end col-md-12 mt12 mb4"></div>
+<ul>
+{% for post in site.posts %}
+  <li>
+    <a target="_blank" href="{{ post.externalUrl }}">
+      {{ post.date | date: "%d %b %Y" }}
+      - {{ post.title }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
 
