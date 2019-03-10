@@ -44,7 +44,7 @@ h2 {
   padding-right: 0.2rem;
   cursor: pointer;
 
-  &:before {
+  &:after {
     content: "";
     display: block;
     position: absolute;
@@ -64,7 +64,7 @@ h2 {
 .link.mod-hover {
   color: $white;
 
-  &:before {
+  &:after {
     height: calc(100% + 2px);
     height: 100%;
   }
@@ -86,28 +86,45 @@ ul {
   background: $white;
 }
 
-.projects {}
+.projects {
+  padding-left: 0;
+}
 
   .project {
     width: 100%;
     position: relative;
     cursor: pointer;
+    list-style: none;
   }
+
+    .project > .link {
+      margin-left: 1.2rem;
+
+      &:before {
+        content: "∙";
+        margin-left: -1.2rem;
+      }
+    }
 
     .project:hover > .link {
       @extend .link.mod-hover;
+
+      &:before {
+        color: $black;
+      }
     }
 
     .project-content {
       position: absolute;
-      left: 50%;
-      top: 0;
-      width: 40%;
+      background: $white;
+      left: 0;
+      top: 100%;
+      z-index: 10;
+      padding: 1.2rem 1.2rem 1.2rem 0;
       display: none;
     }
 
     .project:hover > .project-content {
       display: block
     }
-
 
