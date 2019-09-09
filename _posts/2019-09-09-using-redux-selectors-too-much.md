@@ -1,6 +1,5 @@
-
 ---
-title: We’re using Redux selectors too much
+title: "We’re using Redux selectors too much"
 
 draft: false
 
