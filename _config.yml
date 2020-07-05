@@ -31,6 +31,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:title
+  talks:
+    output: true
+    permalink: /talks/:title
 
 defaults:
   - scope:
