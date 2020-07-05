@@ -3,7 +3,7 @@
 title: iAdvize open-source opaque type javascript library
 
 desc: >
-    Open-source @iadvize-oss/opaque-type. https://github.com/iadvize/opaque-type-library
+    Open-source @iadvize-oss/opaque-type: <a href="https://github.com/iadvize/opaque-type-library">github.com/iadvize/opaque-type-library</a>
 
 page: false
 
