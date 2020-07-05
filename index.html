@@ -66,7 +66,7 @@ layout: default
 {% for post in site.posts %}
   <li>
     <a target="_blank" href="{{ post.externalUrl }}">
-      {{ post.date | date: "%d %b %Y" }} - {{ post.title }}
+      {{ post.date | date: "%b %Y" }} - {{ post.title }}
     </a>
   </li>
 {% endfor %}
@@ -79,11 +79,11 @@ layout: default
   <li>
     {% if talk.externalUrl %}
       <a target="_blank" href="{{ talk.externalUrl }}">
-        {{ talk.date | date: "%d %b %Y" }} - {{ talk.title }}
+        {{ talk.date | date: "%b %Y" }} - {{ talk.title }}
       </a>
     {% else %}
       <a target="_blank" href="#">
-        {{ talk.date | date: "%d %b %Y" }} - {{ talk.title }}
+        {{ talk.date | date: "%b %Y" }} - {{ talk.title }}
       </a>
     {% endif %}
   </li>
