@@ -2,19 +2,19 @@
 layout: default
 ---
 
-<h1>Guillaume</h1>
+<h1 class="home-title">Guillaume</h1>
 
-<br />
+<div class="spacer"></div>
 
-<h2><a href="mailto:clochard.guillaume@gmail.com">clochard.guillaume@gmail.com</a></h2>
+<a href="mailto:guillaume@wuips.com">guillaume@wuips.com</a>
 
-<br />
+<div class="spacer"></div>
 
-<p>Frontend developer @ <a href="https://iadvize.com">iAdvize</a></p>
-<p><a href="http://web.polytech.univ-nantes.fr/">Polytech Nantes</a> alumni</p>
-<p><a href="http://twitter.com/ReactNantes">ReactNantes</a> meetup team</p>
-
-<br />
+<p>
+Frontend engineer @ <a href="https://iadvize.com">iAdvize</a><br />
+<a href="http://web.polytech.univ-nantes.fr/">Polytech Nantes</a> alumni<br />
+<a href="http://twitter.com/ReactNantes">ReactNantes</a> meetup team
+</p>
 
 <p>
   <a href="http://guillaume.wuips.com/CV_Guillaume-Clochard.pdf">CV</a>
@@ -22,6 +22,8 @@ layout: default
   - <a href="https://www.linkedin.com/in/guillaume-clochard/">Linkedin</a>
   - <a href="https://twitter.com/GuillaumeWuip">Twitter</a>
 </p>
+
+<div class="spacer"></div>
 
 <h2>Experiences</h2>
 
@@ -33,60 +35,63 @@ layout: default
   - <a href="http://zenbus.fr">JOUL</a>
 </p>
 
-<h2>Projects</h2>
-
-<ul class="projects">
-{% for project in site.projects reversed %}
-  <li class="project">
-    <div class="link">
-      {{ project.date | date: "%b %Y" }}
-
-      -
-
-      {{ project.title }}
-    </div>
-
-    <div class="project-content">
-      {{ project.desc | raw }}
-
-      <br />
-      <br />
-
-      {% for tag in project.tags %}
-        <p class="tag">{{ tag }}</p>
-      {% endfor %}
-    </div>
-  </li>
-{% endfor %}
-</ul>
+<div class="spacer"></div>
 
 <h2>Articles</h2>
 
-<ul>
-{% for post in site.posts %}
+<ul class="with-date">
+{% assign postsSorted = site.posts | sort: 'date' | reverse %}
+{% for post in postsSorted %}
   <li>
-    <a target="_blank" href="{{ post.externalUrl }}">
-      {{ post.date | date: "%b %Y" }} - {{ post.title }}
-    </a>
+    <span class="date">{{ post.date | date: "%b %Y" }}</span>
+    <span>
+      <a target="_blank" href="{{ post.externalUrl }}">
+        {{ post.title }}
+      </a>
+    </span>
   </li>
 {% endfor %}
 </ul>
 
 <h2>Talks</h2>
 
-<ul>
-{% for talk in site.talks %}
+<ul class="with-date">
+{% assign talksSorted = site.talks | sort: 'date' | reverse %}
+{% for talk in talksSorted %}
   <li>
-    {% if talk.externalUrl %}
-      <a target="_blank" href="{{ talk.externalUrl }}">
-        {{ talk.date | date: "%b %Y" }} - {{ talk.title }}
-      </a>
-    {% else %}
-      <a target="_blank" href="#">
-        {{ talk.date | date: "%b %Y" }} - {{ talk.title }}
-      </a>
-    {% endif %}
+    <span class="date">{{ talk.date | date: "%b %Y" }}</span>
+    <span>
+      {% if talk.externalUrl %}
+        <a target="_blank" href="{{ talk.externalUrl }}">
+          {{ talk.title }}
+        </a>
+      {% else %}
+        {{ talk.title }}
+      {% endif %}
+    </span>
   </li>
 {% endfor %}
 </ul>
 
+
+<h2>Projects</h2>
+
+<ul class="with-date projects">
+{% assign projectsSorted = site.projects | sort: 'date' | reverse %}
+{% for project in projectsSorted %}
+  <li class="project">
+    <span class="date">{{ project.date | date: "%b %Y" }}</span>
+    <span>
+      <span class="title">{{ project.title }}</span>
+
+      {{ project.desc | raw }}
+
+      <span class="tags">
+        {% for tag in project.tags %}
+          {{ tag }}
+        {% endfor %}
+      </span>
+    </span>
+  </li>
+{% endfor %}
+</ul>
