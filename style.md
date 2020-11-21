@@ -1,6 +1,6 @@
 ---
 title: Style
-layout: default
+layout: page 
 ---
 
 # Titre 1
@@ -64,13 +64,51 @@ Now a table:
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
+<figure>
+  <table>
+    <thead>
+      <tr>
+        <th>Tables</th>
+        <th style="text-align: center">Are</th>
+        <th style="text-align: right">Cool</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>col 3 is</td>
+        <td style="text-align: center">right-aligned</td>
+        <td style="text-align: right">$1600</td>
+      </tr>
+      <tr>
+        <td>col 2 is</td>
+        <td style="text-align: center">centered</td>
+        <td style="text-align: right">$12</td>
+      </tr>
+      <tr>
+        <td>zebra stripes</td>
+        <td style="text-align: center">are neat</td>
+        <td style="text-align: right">$1</td>
+      </tr>
+    </tbody>
+  </table>
+  <figcaption>
+    This is the table legend. Pretty pretty legend. 
+  </figcaption>
+</figure>
+
 Images:
 
-![a dogo](https://i.imgur.com/kNrCYgZ.jpg)
+<figure>
+  <img alt="a ramdom illustration" src="https://images.unsplash.com/photo-1605618485931-fdbf5623167f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" />
+  <figcaption>
+    This is the image legend. Pretty pretty legend. 
+  </figcaption>
+</figure>
 
 The End[^1]. Yeah[^2].
 
 ---
+
 [^1]: this is a footnote. It should highlight if you click on the corresponding superscript number.
 
 [^2]: hey there, i'm using no style please!

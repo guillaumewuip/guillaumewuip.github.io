@@ -15,16 +15,20 @@ plugins:
 
 favicon: "favicon.png"
 
+theme_config:
+  back_home_text: ".."
+  date_format: "%d/%m/%Y"
+
 collections:
   projects:
     output: true
     permalink: /projects/:title
   talks:
     output: true
-    permalink: /talks/:title
+    permalink: /tech/talks/:title
   posts:
     output: true
-    permalink: /posts/:title
+    permalink: /tech/posts/:title
 
 defaults:
   - scope:

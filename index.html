@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
 <h1 class="home-title">Guillaume</h1>
@@ -17,8 +17,7 @@ Frontend engineer @ <a href="https://iadvize.com">iAdvize</a><br />
 </p>
 
 <p>
-  <a href="http://guillaume.wuips.com/CV_Guillaume-Clochard.pdf">CV</a>
-  - <a href="http://github.com/guillaumewuip">Github</a>
+  <a href="http://github.com/guillaumewuip">Github</a>
   - <a href="https://www.linkedin.com/in/guillaume-clochard/">Linkedin</a>
   - <a href="https://twitter.com/GuillaumeWuip">Twitter</a>
 </p>
@@ -45,9 +44,15 @@ Frontend engineer @ <a href="https://iadvize.com">iAdvize</a><br />
   <li>
     <span class="date">{{ post.date | date: "%b %Y" }}</span>
     <span>
-      <a target="_blank" href="{{ post.externalUrl }}">
-        {{ post.title }}
-      </a>
+      {% if post.externalUrl %}
+        <a href="{{ post.externalUrl }}">
+          {{ post.title }} ↗
+        </a>
+      {% else %}
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      {% endif %}
     </span>
   </li>
 {% endfor %}
@@ -64,8 +69,8 @@ Frontend engineer @ <a href="https://iadvize.com">iAdvize</a><br />
     <span class="date">{{ talk.date | date: "%b %Y" }}</span>
     <span>
       {% if talk.externalUrl %}
-        <a target="_blank" href="{{ talk.externalUrl }}">
-          {{ talk.title }}
+        <a href="{{ talk.externalUrl }}">
+          {{ talk.title }} ↗
         </a>
       {% else %}
         {{ talk.title }}
@@ -88,11 +93,8 @@ Frontend engineer @ <a href="https://iadvize.com">iAdvize</a><br />
       <span class="title">{{ project.title }}</span>
 
       {{ project.desc | raw }}
-
       <span class="tags">
-        {% for tag in project.tags %}
-          {{ tag }}
-        {% endfor %}
+        {{ project.tags | join: ' - ' }}
       </span>
     </span>
   </li>
