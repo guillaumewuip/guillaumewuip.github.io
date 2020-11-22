@@ -4,6 +4,7 @@
 $white: #fff;
 $black: #222;
 $grey: #888;
+$lightgrey: #f7f7f7;
 $green: rgb(59, 159, 111);
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400&display=swap');
@@ -207,6 +208,10 @@ figure > figcaption {
   font-size: 0.9rem;
 }
 
+figcaption p {
+  margin: 0;
+}
+
 a {
   color: $black;
   cursor: pointer;
@@ -224,8 +229,7 @@ a {
 }
 
 code {
-  color: white;
-  background-color: $grey;
+  background-color: $lightgrey;
   padding: 2px 4px 3px;
 }
 
@@ -236,7 +240,6 @@ code {
 pre {
   margin: 0;
   padding: 0.6rem 0 0.6rem 1.2rem;
-  border-left: 3px solid $grey;
 }
 
 li .highlighter-rouge {
@@ -253,7 +256,7 @@ pre code {
 
 // from https://raw.githubusercontent.com/richleland/pygments-css/master/pastie.css
 .highlight .hll { background-color: #ffffcc }
-.highlight  { background: #ffffff; }
+.highlight  { background: $lightgrey; }
 .highlight .c { color: #888888 } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { color: #008800; font-weight: bold } /* Keyword */
