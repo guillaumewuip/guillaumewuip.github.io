@@ -179,7 +179,7 @@ This pattern is hard to scale. We use [darklaunch and features flags]({{ site.ba
 
 That is a lot of containers to render a simple feature.
 
-# How does connect handles these props refresh ?
+# How does connect handles these props refresh?
 
 The last problem we are facing is the difficulty to write `mapStateToProps` without creating excessive renders.
 
@@ -242,7 +242,7 @@ Like all hooks, be sure to call them [at the top level and not inside loops, con
 
 With these two, a classic connect could be re-written as follows:
 
-```js
+```jsx
 function ConnectedComponent({ id }) {
   const dataFromState = useSelector(dataSelector);
   const dispatch = useDispatch();
