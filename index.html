@@ -85,7 +85,7 @@ Software engineer @ <a href="https://iadvize.com">iAdvize</a><br />
 <h2>Projects</h2>
 
 <ul class="with-date projects">
-{% assign projectsSorted = site.projects | sort: 'date' | reverse %}
+{% assign projectsSorted = site.projects | sort: 'date' | reverse | where_exp:"project", "project.hidden != true" %}
 {% for project in projectsSorted %}
   <li class="project">
     <span class="date">{{ project.date | date: "%b %Y" }}</span>
