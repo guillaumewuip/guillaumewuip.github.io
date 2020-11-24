@@ -22,13 +22,13 @@ theme_config:
 collections:
   projects:
     output: true
-    permalink: /projects/:title
+    permalink: /projects/:year-:month-:day-:title
   talks:
     output: true
-    permalink: /tech/talks/:title
+    permalink: /tech/talks/:year-:month-:day-:title
   posts:
     output: true
-    permalink: /tech/posts/:title
+    permalink: /tech/posts/:year-:month-:day-:title
 
 defaults:
   - scope:
