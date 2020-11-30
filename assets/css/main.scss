@@ -8,6 +8,8 @@ $grey: #888;
 $lightgrey: #f7f7f7;
 $green: rgb(59, 159, 111);
 
+$breakpoint: 700px;
+
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
   filter: invert(1);
@@ -28,7 +30,6 @@ html, body {
 }
 
 html {
-  height: 100%;
   font-size: 15px;
 }
 
@@ -45,13 +46,11 @@ body {
   font-size: 1rem;
   line-height: 1.6;
   margin: 0;
-  min-height: 100%;
+  padding: 0 1rem;
 }
 
 .back-link, .content {
-  max-width: 926px;
   margin: 0 auto;
-  padding: 0 2rem;
 }
 
 .back-link {
@@ -59,10 +58,32 @@ body {
 }
 
 .content {
-  display: grid;
-  grid-column: main / right-edge;
-  grid-template-columns: [main] 640px [right-sidebar] 230px [right-edge];
+  margin: 0 auto;
+  max-width: 870px;
   padding-bottom: 8rem;
+}
+
+.content.home {
+  max-width: 660px;
+}
+
+article {
+  display: grid;
+  grid-template-columns: [main] 72% [right-sidebar] 28% [right-edge];
+}
+
+@media only screen and (max-width: $breakpoint) {
+  article {
+    grid-template-columns: [main] 1fr [right-sidebar] 0 [right-edge];
+  }
+}
+
+article > * {
+  grid-column: main;
+}
+
+article > figure {
+  grid-column: main / right-edge;
 }
 
 h1 {
@@ -188,8 +209,13 @@ img {
 
 figure {
   display: grid;
-  grid-column: main / right-edge;
-  grid-template-columns: [main] 640px [right-sidebar] 230px [right-edge];
+  grid-template-columns: [main] 72% [right-sidebar] 28% [right-edge];
+}
+
+@media only screen and (max-width: $breakpoint) {
+  figure {
+    grid-template-columns: [main] 1fr [right-sidebar] 0 [right-edge];
+  }
 }
 
 figure > *:first-child {
@@ -205,6 +231,17 @@ figure > figcaption {
   margin-left: 1.4rem;
   padding: 0.2rem 0 0.2rem 0.8rem;
   font-size: 0.9rem;
+}
+
+@media only screen and (max-width: $breakpoint) {
+  figure > figcaption {
+    grid-column: main;
+    margin-left: 0;
+    margin-top: 0.8rem;
+    border-left: 0;
+    padding: 0.2rem;
+    text-align: center;
+  }
 }
 
 figcaption p {
