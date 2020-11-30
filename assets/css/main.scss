@@ -77,7 +77,7 @@ article {
 
 @media only screen and (max-width: $breakpoint) {
   article {
-    grid-template-columns: [main] 1fr [right-sidebar] 0 [right-edge];
+    grid-template-columns: [main] 100% [right-sidebar] 0 [right-edge];
   }
 }
 
@@ -218,7 +218,7 @@ figure {
 
 @media only screen and (max-width: $breakpoint) {
   figure {
-    grid-template-columns: [main] 1fr [right-sidebar] 0 [right-edge];
+    grid-template-columns: [main] 100% [right-sidebar] 0 [right-edge];
   }
 }
 
@@ -272,7 +272,6 @@ code {
   color: $white;
   background-color: $dark;
   padding: 2px 4px 3px;
-  white-space: nowrap;
 }
 
 pre {
