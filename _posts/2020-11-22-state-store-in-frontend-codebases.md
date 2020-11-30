@@ -8,8 +8,6 @@ page : false
 ---
 *This post was [originally published on Medium](https://medium.com/iadvize-engineering/state-and-store-in-frontend-codebases-68691d5f28bf).*
 
----
-
 *Taking the time to separate the State, the Store and the Workflow in frontend codebase.*
 
 For the last two years my team has been continuously refactoring a large legacy app. We learnt a lot of things in the process but one of the most important tools we found was having a new outlook on two core front-end concepts: the State and the Store.
