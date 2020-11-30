@@ -10,6 +10,8 @@ $green: rgb(59, 159, 111);
 
 $breakpoint: 700px;
 
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400&display=swap');
+
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
   filter: invert(1);
@@ -41,9 +43,10 @@ html {
 
 body {
   color: $black;
-  font-family: Courier, monospace;
+  font-family: "Anonymous Prop", Courier, monospace;
   text-rendering: optimizeLegibility;
-  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.1rem;
   line-height: 1.6;
   margin: 0;
   padding: 0 1rem;
@@ -120,7 +123,7 @@ hr {
 }
 
 p, ul, ol, table, figure, .highlighter-rouge {
-  margin: 1rem 0 2rem;
+  margin: 0.9rem 0 0.9rem;
 }
 
 ul, ol {
@@ -210,6 +213,7 @@ img {
 figure {
   display: grid;
   grid-template-columns: [main] 72% [right-sidebar] 28% [right-edge];
+  margin: 2rem 0 3rem;
 }
 
 @media only screen and (max-width: $breakpoint) {
@@ -269,10 +273,6 @@ code {
   background-color: $dark;
   padding: 2px 4px 3px;
   white-space: nowrap;
-}
-
-.highlighter-rouge {
-  margin: 2rem 0 3rem;
 }
 
 pre {
