@@ -86,9 +86,6 @@ article > * {
   grid-column: main;
 }
 
-article > figure {
-  grid-column: main / right-edge;
-}
 
 h1, h2, h3 {
   letter-spacing: calc(-1 * 0.05em);
@@ -216,9 +213,13 @@ img {
   margin: 0 auto;
 }
 
+article > figure {
+  grid-column: left-edge / right-edge;
+}
+
 figure {
   display: grid;
-  grid-template-columns: [main] 75% [right-sidebar] 25% [right-edge];
+  grid-template-columns: [left-edge] minmax(0, 2fr) [main] minmax(0, 780px) [right-sidebar] minmax(0, 2fr) [right-edge];
   margin: 2rem 0 3rem;
 }
 
@@ -237,10 +238,19 @@ figure > *:first-child {
 figure > figcaption {
   grid-column: right-sidebar;
   align-self: end;
-  border-left: 3px solid $green;
-  margin-left: 1.4rem;
-  padding: 0.2rem 0 0.2rem 0.8rem;
-  font-size: 0.9rem;
+  margin-left: 1rem;
+  padding: 0.2rem 0 1rem;
+  font-size: 0.8rem;
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    border-bottom: 3px solid $green;
+  }
 }
 
 @media only screen and (max-width: $breakpoint) {
