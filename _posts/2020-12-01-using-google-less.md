@@ -12,10 +12,11 @@ them. They provide a good user experience and are deeply integrated into one
 another. Also, they are free or at least very cheap (I was paying 2€/month for
 extra storage).
 
-Google became *my personnal platform*. Growing up, I end up thinking that this
-was *the* way the use Internet. Does it sound familiar?
+Google became *my personnal platform*. Growing up and learning how to use
+Internet I end up thinking that this was *the way* to use it. Does it sound
+familiar?
 
-But, years go by and I learnt more and more fondamental issues with Google
+But, years go by and I learnt more and more about fondamental issues with Google
 (and others). You probably have heard of them too.
 
 I'm not OK with the social and political impact[^1] of platforms like Google and
@@ -39,6 +40,28 @@ Don't get me wrong. I still find Google products very powerfull. I will
 certainly miss a lot of them.
 
 But it's time to take control back.
+
+# The plan 
+
+My plan starts with two important axioms.
+
+**I have a computer-science background and want to leverage it.** This will be a
+bit hacky. That's OK. This is not a mainstrem tutorial. I want to learn a bit of
+the fondamentals behind the everyday tools.
+
+I will also use this opportunity to use more free and opensource software.
+Probably not GUIs but CLIs and terminal stuff a lot. After all I'm a heavy
+VIM user: if I can use VIM to write mail I will be a happy man.
+
+This choice will maybe also help me switch from macOS to Linux more easily one
+day.
+
+**I have a simple setup: One computer. One smartphone.** Nothing more.
+
+I use the same computer for personnal and work stuff. I also use an iPhone,
+mainly to read stuff (messages, calendar, etc.), not more.
+
+This will help me choose the Google alternatives that fit my needs.
 
 ---
 
