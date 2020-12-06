@@ -47,7 +47,7 @@ body {
   font-family: "Roboto Mono", monospace;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.6;
   margin: 0;
   padding: 0 1rem;
@@ -127,6 +127,14 @@ hr {
 
 p, ul, ol, table, figure, .highlighter-rouge {
   margin: 0.9rem 0 0.9rem;
+}
+
+p {
+  line-height: 1.8;
+}
+
+sup {
+  line-height: 0;
 }
 
 ul, ol {
