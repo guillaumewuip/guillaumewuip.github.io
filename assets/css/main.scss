@@ -225,7 +225,7 @@ figure {
 
 @media only screen and (max-width: $breakpoint) {
   figure {
-    grid-template-columns: [main] 100% [right-sidebar] 0 [right-edge];
+    grid-template-columns: [left-edge] 0 [main] 100% [right-sidebar] 0 [right-edge];
   }
 }
 
@@ -258,9 +258,12 @@ figure > figcaption {
     grid-column: main;
     margin-left: 0;
     margin-top: 0.8rem;
-    border-left: 0;
     padding: 0.2rem;
     text-align: center;
+
+    &:after {
+      display: none;
+    }
   }
 }
 
