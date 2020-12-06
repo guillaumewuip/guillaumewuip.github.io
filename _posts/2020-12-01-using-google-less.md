@@ -61,7 +61,7 @@ day.
 I use the same computer for personnal and work stuff. I also use an iPhone,
 mainly to read stuff (messages, calendar, etc.), not more.
 
-This will help me choose the Google alternatives that fit my needs.
+This will help me choose the alternatives that fit my needs.
 
 ---
 
