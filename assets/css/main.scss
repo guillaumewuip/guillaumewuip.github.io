@@ -335,6 +335,30 @@ pre code {
   background-color: transparent;
 }
 
+.guide-chapters {
+  width: 100%;
+  max-width: 820px;
+  margin: 2rem auto 1rem;
+  padding: 1rem 1rem 0 1rem;
+  background-color: #f2f2f2;
+  grid-column: left-edge / right-edge;
+  column-count: 2;
+
+  ol {
+    margin: 0;
+  }
+
+  li {
+    margin: 0 0 1rem;
+  }
+}
+
+@media only screen and (max-width: $breakpoint) {
+  .guide-chapters {
+    column-count: 1;
+  }
+}
+
 //from http://jwarby.github.io/jekyll-pygments-themes/languages/javascript.html
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #408080; font-style: italic } /* Comment */

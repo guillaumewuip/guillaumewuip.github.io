@@ -32,14 +32,25 @@ up one morning a few weeks ago and said to my self: "I should stop using
 Google".
 
 Now in the middle of my ["DeGoogle"](https://www.reddit.com/r/degoogle) process,
-it's a good time to share my plan. I hope it can inspire you. It's also a way to
-force myself to continue on this not-so-easy path. Now that you've read that I'm
-doing this it's harder for me to turn back.
+it's a good moment to share my plan. I hope it can inspire you. It's also a way
+to force myself to continue on this not-so-easy path. Now that you've read that
+I'm doing this it's harder for me to turn back.
 
 Don't get me wrong. I still find Google products very powerfull. I will
 certainly miss a lot of them.
 
 But it's time to take control back.
+
+<div class="guide-chapters">
+  <ol>
+    <li>The plan</li>
+    <li>Files</li>
+    <li>Mail</li>
+    <li>Calendar and Contacts</li>
+    <li>Browser and search</li>
+    <li>Photos</li>
+  </ol>
+</div>
 
 # The plan 
 
@@ -56,10 +67,9 @@ VIM user: if I can use VIM to write mail I will be a happy man.
 This choice will maybe also help me switch from macOS to Linux more easily one
 day.
 
-**I have a simple setup: One computer. One smartphone.** Nothing more.
-
-I use the same computer for personnal and work stuff. I also use an iPhone,
-mainly to read stuff (messages, calendar, etc.), not more.
+**I have a simple setup: One computer. One smartphone.** Nothing more. I use the
+same computer for both personnal activities and work. I also use an iPhone,
+mainly to read messages, calendar, etc., not more.
 
 This will help me choose the alternatives that fit my needs.
 
