@@ -46,6 +46,25 @@ A break:
 
 ---
 
+Chapters:
+
+<div class="guide-chapters" >
+<ol>
+<li>The plan</li>
+<li markdown="1">
+[Files]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %})
+</li>
+<li markdown="1">
+[Mails]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %}) 
+</li>
+<li markdown="1">
+[Calendar and contacts]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %}) 
+</li>
+<li class="tbd">Browser and search (TBD)</li>
+<li class="tbd">Photos (TBD)</li>
+</ol>
+</div>
+
 Inline code: `console.log('hello world')`
 
 Full code block:

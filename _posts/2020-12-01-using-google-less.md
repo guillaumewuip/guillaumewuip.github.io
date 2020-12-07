@@ -82,6 +82,18 @@ mainly to read messages, calendar, etc., not more.
 
 This will help me choose the alternatives that fit my needs.
 
+Because it's a big project, let's cut it into smaller parts:
+
+1. Managing my [Files]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %})
+
+    Switching from Google Drive, Docs, Sheet, and Slides to S3 buckets, Github
+    and Markdown.
+
+2. An alternative for my [Mails]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %}) 
+
+    Replacing Gmail with an IMAP mailbox behind my own domain. How to make a
+    smooth transition between Gmail and the new email?  What mail client to use?
+
 ---
 
 [^1]: See on this subject the documentary
