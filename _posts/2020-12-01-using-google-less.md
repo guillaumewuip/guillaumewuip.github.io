@@ -94,6 +94,10 @@ Because it's a big project, let's cut it into smaller parts:
     Replacing Gmail with an IMAP mailbox behind my own domain. How to make a
     smooth transition between Gmail and the new email?  What mail client to use?
 
+2. [Calendar and contacts]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %}) 
+
+    :
+
 ---
 
 [^1]: See on this subject the documentary
