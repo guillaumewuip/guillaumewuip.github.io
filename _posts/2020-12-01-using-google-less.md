@@ -92,11 +92,11 @@ Because it's a big project, let's cut it into smaller parts:
 2. An alternative for my [Mails]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %}) 
 
     Replacing Gmail with an IMAP mailbox behind my own domain. How to make a
-    smooth transition between Gmail and the new email?  What mail client to use?
+    smooth transition between Gmail and the new mail? What mail client to use?
 
 2. [Calendar and contacts]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %}) 
 
-    :
+    Using CalDAV and CardDAV standards.
 
 ---
 
