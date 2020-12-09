@@ -82,21 +82,43 @@ mainly to read messages, calendar, etc., not more.
 
 This will help me choose the alternatives that fit my needs.
 
-Because it's a big project, let's cut it into smaller parts:
+Because it's a big project, let's cut it into smaller parts.
 
-1. Managing my [Files]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %})
+### Managing my [Files]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %})
 
-    Switching from Google Drive, Docs, Sheet, and Slides to S3 buckets, Github
-    and Markdown.
+Switching from Google Drive, Docs, Sheet, and Slides to S3 buckets, Github
+and Markdown.
 
-2. An alternative for my [Mails]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %}) 
+### An alternative for my [Mails]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %})
 
-    Replacing Gmail with an IMAP mailbox behind my own domain. How to make a
-    smooth transition between Gmail and the new mail? What mail client to use?
+Replacing Gmail with an IMAP mailbox behind my own domain. How to make a
+smooth transition between Gmail and the new mail? What mail client to use?
 
-2. [Calendar and contacts]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %}) 
+### A new [Calendar and contacts]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %}) solution
 
-    Using CalDAV and CardDAV standards.
+Using CalDAV and CardDAV standards to replace Google Calendar and Contacts.
+
+### New browser and and new search engine (TBD)
+
+Stop using Chrome and Google Search. Firefox? Safari? DuckDuckGo?
+
+### Backup and share my Photos (TBD)
+
+Google Photos was fabulous with its free unlimited storage, but it will be
+[discontinued in June,
+2021](https://www.theverge.com/2020/11/11/21560810/google-photos-unlimited-cap-free-uploads-15gb-ending).
+I need to find an alternative.
+
+That's it!
+
+I'm used to other Google services but I find them easy to replace. I now use
+[DeepL](deepl.com) instead of Translate. I've switch from Keep to
+[Trello](http://trello.com/) a lot time ago and now Roam (waiting for Athens to
+catch up).
+
+TODO:
+- Google Maps
+- Google Meet
 
 ---
 
