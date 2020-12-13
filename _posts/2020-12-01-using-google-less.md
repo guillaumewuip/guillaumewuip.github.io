@@ -7,7 +7,7 @@ page : false
 
 ---
 I've been a faithful user of Google services for a long time. Search, Gmail,
-Calendar, Drive, Photos, Translation, Chrome, Maps, etc. I've used a lot of
+Calendar, Drive, Photos, Translation, Chrome, Maps – I've used a lot of
 them. They provide a good user experience and are deeply integrated into one
 another. Also, they are free or at least very cheap (I was paying 2€/month for
 extra storage).
@@ -36,11 +36,11 @@ Google".
 
 Now in the middle of my ["DeGoogle"](https://www.reddit.com/r/degoogle) process,
 it's the right time to share my plan. I hope it can inspire you. It's also a way
-to force myself to continue on this not-so-easy path. Now that you've read this
+to force myself to continue on this not-so-easy path. Now that you've read this,
 it's harder for me to turn back.
 
-Don't get me wrong. I still find Google products very powerfull. I will
-certainly miss a lot of them.
+Don't get me wrong. I do find Google products very powerfull. I will certainly
+miss a lot of them.
 
 But it's time to take control back.
 
@@ -78,7 +78,7 @@ day.
 
 **I have a simple setup: One computer. One smartphone.** Nothing more. I use the
 same computer for both personnal activities and work. I also use an iPhone,
-mainly to read messages, calendar, etc., nothing more.
+mainly to read messages, calendar, maps. Nothing more.
 
 This will help me choose the alternatives that fit my needs.
 
@@ -86,23 +86,23 @@ Because it's a big project, it's better to cut it into smaller parts.
 
 ### Managing my [Files]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %})
 
-Switching from Google Drive, Docs, Sheet, and Slides to S3 buckets, Github
-and Markdown.
+Switching from Google Drive, Docs, Sheet, and Slides to S3 buckets, Git, 
+Markdown, mainly.
 
 ### An alternative for my [Mails]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %})
 
-Replacing Gmail with an IMAP mailbox behind my own domain. How to make a
+Replacing Gmail with an IMAP mailbox behind my own domain. How to plan a
 smooth transition between Gmail and the new mail? What mail client to use?
 
-### A new [Calendar and contacts]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %}) solution
+### A new [Calendar and Contacts]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %}) setup
 
 Using CalDAV and CardDAV standards to replace Google Calendar and Contacts.
 
-### New browser and and new search engine (TBD)
+### New Browser and new Search engine (TBD)
 
-Stop using Chrome and Google Search. Firefox? Safari? DuckDuckGo?
+Chrome and Google Search alternatives. Firefox? Safari? DuckDuckGo?
 
-### Backup and share my Photos (TBD)
+### How to backup and share my Photos (TBD)
 
 Google Photos was fabulous with its free unlimited storage, but it will be
 [discontinued in June,
@@ -112,49 +112,51 @@ I need to find an alternative.
 That's it! Of course I'm used to other Google services but I found them quite
 easy to replace:
 
-- I now use [DeepL](deepl.com) instead of Translate
+- I now use [DeepL](http://deepl.com) instead of Translate
 
 - I've switched from Keep to [Trello](http://trello.com/) a long time ago and I
   now mainly use [Roam](https://roamresearch.com/) for everything related to
   note taking
 
-- It was easy to replace Meet by another video-conferencing tool like
+- It's easy to replace Meet by another video-conferencing tool like
   [Jitsi](https://meet.jit.si/)
 
 - Maps can be replaced by Apple Plans and
-  [openstreetmap.org](https://www.openstreetmap.org/). I still need to confirm I
-  don't miss anything on the long term. Considering [OSM is seeing huge
+  [openstreetmap.org](https://www.openstreetmap.org/). I still need to confirm
+  on the long term that nothing important is missing. Considering [OSM is seeing
+  huge
   investments](https://joemorrison.medium.com/openstreetmap-is-having-a-moment-dcc7eef1bb01)
   from big companies, I'm quite confident the transition will go well.
 
-# 
+# Ending thoughts
 
-- a long process
- 
-  time consuming
+Waking up this special worning I decided to stop using Google, I certainly
+hadn't in mind how much time consuming such a project can be.
 
-  some parts not easy (I've listed easier alternatives beside mine that could
-  help)
+I have to admit I've sometimes chosen the most nerdy and hard-to-setup
+alternatives. I can only blame myself. I've tried to list some others –
+hopefully more user-friendly ones – in each part of this post for those of you
+that don't want to open a terminal to read their mails.
 
-  could be done step by step
+Is it worth it?, you will ask. Beside the obvious "don't let such a company own
+your data" argument, I want to share with you the powerfull feeling of relief I
+felt once having secured emails, calendar and contacts out of Google reach.
 
-- feeling
+I think it's comparable to what people can feel when they harvest the first
+vegetables they grew in their garden. There is a kind of pride in it. You
+probably know this feeling too. 
 
-  relief of having took control back of my digital life. 
+It's also about having become a real actor of its digital life. Now that you own
+your domain name, your mails, your calendars, contacts and backups, you have
+good fondations to build things up on. You have *control*.
 
-  good fondations to build things up on. Now that I own my domain name, mails,
-  calendar, contacts and backups, I'm not locked with one company anymore. It
-  will be easy to change clients or provider in the future if I need to.
+It's about refusing to fell in the passive position created for us. This should
+not be the way to use Internet. We must refuse to let GAFAM and other shape what
+we see and how we behave.
 
-- ouverture
-
-  this should not be the to use Internet
-
-  [Internet should be about something else](https://cheapskatesguide.org/articles/beauty-of-text.html) than just consuming products of the GAFAM and others.
-
-  promise of Internet was about freedom, free speech, decentralization
-
-- your new year's resolution for 2021?
+While such a project is huge, it can be done step by step. Calendar one month,
+Files the other, Mails after that. 2021 just started and it's time for one or
+two good resolutions. Why not try to "DeGoogle" yourself a bit?
 
 ---
 
