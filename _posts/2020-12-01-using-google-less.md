@@ -36,8 +36,8 @@ Google".
 
 Now in the middle of my ["DeGoogle"](https://www.reddit.com/r/degoogle) process,
 it's the right time to share my plan. I hope it can inspire you. It's also a way
-to force myself to continue on this not-so-easy path. Now that you've read that
-I'm doing this it's harder for me to turn back.
+to force myself to continue on this not-so-easy path. Now that you've read this
+it's harder for me to turn back.
 
 Don't get me wrong. I still find Google products very powerfull. I will
 certainly miss a lot of them.
@@ -63,7 +63,7 @@ But it's time to take control back.
 
 # The plan 
 
-My plan starts with two important axioms.
+My plan starts with two important points.
 
 **I have a computer-science background and want to leverage it.** This will be a
 bit hacky. That's OK. This is not a mainstream tutorial. I want to learn a bit
@@ -78,11 +78,11 @@ day.
 
 **I have a simple setup: One computer. One smartphone.** Nothing more. I use the
 same computer for both personnal activities and work. I also use an iPhone,
-mainly to read messages, calendar, etc., not more.
+mainly to read messages, calendar, etc., nothing more.
 
 This will help me choose the alternatives that fit my needs.
 
-Because it's a big project, let's cut it into smaller parts.
+Because it's a big project, it's better to cut it into smaller parts.
 
 ### Managing my [Files]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %})
 
@@ -109,16 +109,52 @@ Google Photos was fabulous with its free unlimited storage, but it will be
 2021](https://www.theverge.com/2020/11/11/21560810/google-photos-unlimited-cap-free-uploads-15gb-ending).
 I need to find an alternative.
 
-That's it!
+That's it! Of course I'm used to other Google services but I found them quite
+easy to replace:
 
-I'm used to other Google services but I find them easy to replace. I now use
-[DeepL](deepl.com) instead of Translate. I've switch from Keep to
-[Trello](http://trello.com/) a lot time ago and now Roam (waiting for Athens to
-catch up).
+- I now use [DeepL](deepl.com) instead of Translate
 
-TODO:
-- Google Maps
-- Google Meet
+- I've switched from Keep to [Trello](http://trello.com/) a long time ago and I
+  now mainly use [Roam](https://roamresearch.com/) for everything related to
+  note taking
+
+- It was easy to replace Meet by another video-conferencing tool like
+  [Jitsi](https://meet.jit.si/)
+
+- Maps can be replaced by Apple Plans and
+  [openstreetmap.org](https://www.openstreetmap.org/). I still need to confirm I
+  don't miss anything on the long term. Considering [OSM is seeing huge
+  investments](https://joemorrison.medium.com/openstreetmap-is-having-a-moment-dcc7eef1bb01)
+  from big companies, I'm quite confident the transition will go well.
+
+# 
+
+- a long process
+ 
+  time consuming
+
+  some parts not easy (I've listed easier alternatives beside mine that could
+  help)
+
+  could be done step by step
+
+- feeling
+
+  relief of having took control back of my digital life. 
+
+  good fondations to build things up on. Now that I own my domain name, mails,
+  calendar, contacts and backups, I'm not locked with one company anymore. It
+  will be easy to change clients or provider in the future if I need to.
+
+- ouverture
+
+  this should not be the to use Internet
+
+  [Internet should be about something else](https://cheapskatesguide.org/articles/beauty-of-text.html) than just consuming products of the GAFAM and others.
+
+  promise of Internet was about freedom, free speech, decentralization
+
+- your new year's resolution for 2021?
 
 ---
 
