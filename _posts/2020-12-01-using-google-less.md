@@ -35,9 +35,11 @@ up one morning a few weeks ago and said to my self: "I should stop using
 Google".
 
 Now in the middle of my ["DeGoogle"](https://www.reddit.com/r/degoogle) process,
-it's the right time to share my plan. I hope it can inspire you. It's also a way
-to force myself to continue on this not-so-easy path. Now that you've read this,
-it's harder for me to turn back.
+it's the right time to share my plan. Friends have asked me why I've dedicated
+two full weekends for a local email setup. I owe them some explanations.
+
+I hope it can inspire you. It's also a way to force myself to continue on this
+not-so-easy path. Now that you've read this, it's harder for me to turn back.
 
 Don't get me wrong. I do find Google products very powerfull. I will certainly
 miss a lot of them.
@@ -48,13 +50,13 @@ But it's time to take control back.
 <ol>
 <li>The plan</li>
 <li markdown="1">
-[Files]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %})
+[Files]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less-files.md %})
 </li>
 <li markdown="1">
-[Mails]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %}) 
+[Mails]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less-mails.md %}) 
 </li>
 <li markdown="1">
-[Calendar and contacts]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %}) 
+[Calendar and contacts]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less-calendar-contacts.md %}) 
 </li>
 <li class="tbd">Browser and search (TBD)</li>
 <li class="tbd">Photos (TBD)</li>
@@ -76,13 +78,13 @@ VIM user: if I can use VIM to write mail I will be a happy person.
 This choice will maybe also help me switch from macOS to Linux more easily one
 day.
 
-**I have a simple setup: One computer. One smartphone.** Nothing more. I use the
-same computer for both personnal activities and work. I also use an iPhone,
-mainly to read messages, calendar, maps. Nothing more.
+**I have a simple setup: One computer. One smartphone.** I use the same computer
+for both personnal activities and work. I also use an iPhone, mainly to read
+messages, calendar, maps. Nothing more.
 
 This will help me choose the alternatives that fit my needs.
 
-Because it's a big project, it's better to cut it into smaller parts.
+Because it's a big project, let's cut it into smaller parts.
 
 ### Managing my [Files]({{ site.baseurl }}{% link _posts/2020-12-01-using-google-less.md %})
 
