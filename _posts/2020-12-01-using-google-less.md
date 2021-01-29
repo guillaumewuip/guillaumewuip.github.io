@@ -130,6 +130,8 @@ easy to replace:
   investments](https://joemorrison.medium.com/openstreetmap-is-having-a-moment-dcc7eef1bb01)
   from big companies, I'm quite confident the transition will go well.
 
+  https://citymapper.com/
+
 # Ending thoughts
 
 Waking up this special worning I decided to stop using Google, I certainly

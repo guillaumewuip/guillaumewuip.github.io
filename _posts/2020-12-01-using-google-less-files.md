@@ -46,25 +46,26 @@ data I've archived here from my student years.
 
 No files I edit everyday and even less that I share with others. 
 
-I only use my computer to access the files so the requirements for the
+I only use one computer to access the files so the requirements for the
 alternative are versy simple: 
 
-- It should be easy to work with files locally (one computer only) and sync them
-    (auto-sync would be great)
+- It should be easy to work with files locally and sync them (auto-sync would be
+   great)
 - No platform lock. I'm lot leaving Google Drive to be locked with another
     platform.
-- No need for a too much space. A few dozen Go will be OK.
+- No need for too much space. A few dozen Go will be OK.
 - Encryption + EU based hosting would be a plus
 - Very cheap. It's "just" a distant disk actually, I'm not willing to pay much
     for that.
 
-The alternative I now use for those files is very simple: an encrypted S3 bucket
-synced with a local directory.
+The alternative I found is very simple: an encrypted S3 bucket synced with a
+local directory.
 
-[`rclone`](https://rclone.org/) works really great to sync the local directory
-with the encrypted bucket. I've written a small [LaunchAgents
+I use [`rclone`](https://rclone.org/) too sync the local directory
+with the encrypted bucket. It's works really great and can add an encryption
+layer on top of one ressource. I've written a small [LaunchAgents
 script](https://github.com/guillaumewuip/Home/blob/32b542be6c04e69b450141e4c4c027e4e5a9a14a/LaunchAgents/com.wuips.backup.sync.plist)
-that do that every hour.
+that update the bucket with local changes every hour.
 
 <figure>
   <img alt="Rclone schema" src="/assets/img/google-less-files-rclone.png" />
@@ -80,7 +81,10 @@ that do that every hour.
 
 
   - office suite alternative
-    - TODO
+    - Docs: https://etherpad.org/ and https://framapad.org/en/, Github +
+        markdown
+    - Slides: mardown slides
+    -
 
 # Backups
 
