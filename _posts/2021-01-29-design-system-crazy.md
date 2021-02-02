@@ -5,6 +5,11 @@ draft: false
 
 page : false
 
+image: /assets/img/design-system-schizophrenia-diagram.png
+
+excerpt: "Discussing the cost of the status quo of promoting a Design System but
+but organizing the company for it"
+
 ---
 
 Last week my ex-colleague and friend [Benoit Rajalu](https://www.benrajalu.net/)
