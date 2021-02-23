@@ -210,7 +210,7 @@ state in order to eventually access the one with data, and we're limited to the
 function Component() {
   const request = useMyRequest()
 
-  switch (request._type) {
+  switch (request.type) {
     case 'NotAsked':
       return <NotAskedScreen />
 
@@ -264,7 +264,7 @@ responsibility as developers, it is now also woven within the very fabric of it.
 ### Theory
 
 Mathematics, type theory and functional programming also help. We should
-especially be interested by [Alebraic Data
+especially be interested by [Algebraic Data
 Type](https://en.wikipedia.org/wiki/Algebraic_data_type) (ADT) and more
 precisely *sum types*.
 
