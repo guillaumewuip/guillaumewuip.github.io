@@ -8,7 +8,7 @@ page : false
 image: /assets/img/design-system-schizophrenia-diagram.png
 
 excerpt: "Discussing the cost of the status quo of promoting a Design System but
-but organizing the company for it"
+not organizing the company for it"
 
 ---
 
