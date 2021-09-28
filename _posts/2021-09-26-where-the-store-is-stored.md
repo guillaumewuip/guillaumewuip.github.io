@@ -109,11 +109,11 @@ will stay the same across all imports, making `cars/store.js` a store by itself.
 
 Should we need a reactive store (ie. being able to *subscribe* to state
 changes), we would write our own subscribe function by hand or use classic store
-librairies (some opinionated like Redux, Mobx, or some more transversal like
+libraries (some opinionated like Redux, Mobx, or some more transversal like
 the [@fp-51/store](https://github.com/fp51/store-library) I authored one or
 two years ago). 
 
-## Librairies / Framework location
+## Libraries / Framework location
 
 Another very common way of storing our store is using the locations provided by
 the main view library or framework we use (React, Vue, etc.).
@@ -150,7 +150,7 @@ components via a simple `useContext` - even if [it's not made for
 that](https://twitter.com/sebmarkbage/status/1219836431972978689). The idea is
 the same: the store is stored inside React "runtime" via `useState`.
 
-## Programatic store
+## Programmatic store
 
 And finally, there's the good old way: dependency injection by hand. Let's say
 we're in a full custom app (no React shenanigans) and we don't want to use
@@ -229,7 +229,7 @@ React runtime", it will be scoped to the `ReactDOM.render` or
 `ReactDOMServer.renderToString` which will be called once for every http
 requests.
 
-I'm beginning to think this deep integration with view librairies in a way that
+I'm beginning to think this deep integration with view libraries in a way that
 makes server and browser contexts similar is a big factor in the success of
 Redux and others (Mobx, etc.).
 
@@ -243,7 +243,7 @@ Let's give another chance to our programmatic store sharing solution, ie.
 subsequent bit of code that needs it through a sort of a handmade dependency
 injection".
 
-It's clearly not very convenient to have to pass our store programaticaly to
+It's clearly not very convenient to have to pass our store programmaticaly to
 every part of the codebase as it creates a lot of boilerplate, but at least
 we face no issue with SSR if we craft one store per request server-side, and one
 store when the app starts browser-side. It is very flexible as well: we
