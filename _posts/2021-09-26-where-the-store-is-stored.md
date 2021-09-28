@@ -234,9 +234,9 @@ makes server and browser contexts similar is a big factor in the success of
 Redux and others (Mobx, etc.).
 
 The main issue is however that we're locked to the corresponding library /
-framework.  Let's say you have an SPA where you want React to really only be
-about the views, and that you need to read / update / subscribe to store change
-in other contexts.  You just can't, it's React or bust. Back at square one.
+framework. Let's say you have an SPA where you want to limit React to the
+views, and that you need to read / update / subscribe to store change in other
+contexts. You just can't, it's React or bust. Back at square one.
 
 Let's give another chance to our programmatic store sharing solution, ie.
 "crafting a store as soon as the app starts and then pass it along to every
