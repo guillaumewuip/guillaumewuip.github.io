@@ -29,6 +29,9 @@ collections:
   posts:
     output: true
     permalink: /tech/posts/:year-:month-:day-:title
+  mentalModels:
+    output: true
+    permalink: /tech/mental-models/:title
 
 defaults:
   - scope:
@@ -36,3 +39,8 @@ defaults:
       type: projects
     values:
       layout: post
+  - scope:
+      path: ""
+      type: mentalModels 
+    values:
+      layout: mentalModel
