@@ -61,6 +61,18 @@ Software engineer @ <a href="https://www.blablacar.com/">BlaBlaCar</a><br />
 
 <div class="spacer"></div>
 
+<h2>Tech Mental Models</h2>
+
+<p>
+{% assign postsSorted = site.mentalModels | sort: 'date' | reverse %}
+{% for post in postsSorted %}
+  <a href="{{ post.url }}">{{ post.title }}</a>
+  {% if forloop.last != true %} - {% endif %}
+{% endfor %}
+</p>
+
+<div class="spacer"></div>
+
 <h2>Tech Talks</h2>
 
 <ul class="with-date">
