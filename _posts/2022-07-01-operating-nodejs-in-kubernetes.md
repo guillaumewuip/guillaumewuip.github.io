@@ -202,6 +202,11 @@ We were DDOSed and had to manually scale up the Deployment.
 
 # Scaling on Memory
 
+_Important notice: this has been written before Node.js 12 and the addition of
+container-aware memory. Using Node.js 12 or higher, the service would not have
+crashed because of OOM. Instead, it would have reached the container memory
+limit and then seen reduced performance because of some memory swapping._
+
 We learned the hard way that the CPU metric is not enough for our HPA. We have
 to read memory usage too.
 
